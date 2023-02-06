@@ -1,0 +1,216 @@
+INFO  13:04:54,131 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  13:04:54,170 - #2 program
+INFO  13:04:54,170 - #46 MJProgram
+INFO  13:04:54,170 - #46 int
+INFO  13:04:54,171 - #46 x
+INFO  13:04:54,172 - #30 =
+ERROR 13:04:54,172 - 
+Sintaksna greska na liniji 2
+INFO  13:04:54,172 - #43 1
+INFO  13:04:54,172 - #11 ,
+INFO  13:04:54,172 - #46 y
+INFO  13:04:54,173 - #5 ;
+INFO  13:04:54,173 - #3 {
+ERROR 13:04:54,173 - Izvrsen oporavak od greske prilikom deklarisanja promenljive u liniji 2
+INFO  13:04:54,174 - #46 int
+INFO  13:04:54,175 - #46 met
+INFO  13:04:54,175 - #6 (
+INFO  13:04:54,175 - #7 )
+INFO  13:04:54,176 - #46 int
+INFO  13:04:54,176 - #46 m
+INFO  13:04:54,176 - #5 ;
+INFO  13:04:54,177 - #46 int
+INFO  13:04:54,177 - #46 n
+INFO  13:04:54,177 - #5 ;
+INFO  13:04:54,177 - #3 {
+INFO  13:04:54,177 - #46 m
+INFO  13:04:54,177 - #30 =
+INFO  13:04:54,178 - #46 n
+INFO  13:04:54,179 - #5 ;
+INFO  13:04:54,180 - #9 return
+INFO  13:04:54,180 - #43 1
+INFO  13:04:54,180 - #5 ;
+INFO  13:04:54,180 - #4 }
+INFO  13:04:54,181 - #46 int
+INFO  13:04:54,181 - #46 main
+INFO  13:04:54,181 - #6 (
+INFO  13:04:54,181 - #7 )
+INFO  13:04:54,181 - #3 {
+INFO  13:04:54,181 - #9 return
+INFO  13:04:54,181 - #43 0
+INFO  13:04:54,181 - #5 ;
+INFO  13:04:54,181 - #4 }
+INFO  13:04:54,181 - #4 }
+INFO  13:04:54,185 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            ErrorVar(
+            ) [ErrorVar]
+          ) [SingleVarDeclaration]
+          VarDeclarationDecl(
+           y
+          ) [VarDeclarationDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        NoFormParsAndVarArgs(
+        ) [NoFormParsAndVarArgs]
+        VarList(
+          VarList(
+            NoVarList(
+            ) [NoVarList]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 m
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+            ) [VarDecl]
+          ) [VarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               n
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListDecl(
+          StatementListDecl(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementDesignatorStatement(
+              DesignatorStatementAssign(
+                AssignDesignatorDecl(
+                  DesignatorExpr(
+                    DesignatorName(
+                     m
+                    ) [DesignatorName]
+                    NoDesignator(
+                    ) [NoDesignator]
+                  ) [DesignatorExpr]
+                  AssignopDecl(
+                  ) [AssignopDecl]
+                  MinusExprDeclaration(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleTermDeclaration(
+                      SingleFactorDecl(
+                        Var(
+                          DesignatorExpr(
+                            DesignatorName(
+                             n
+                            ) [DesignatorName]
+                            NoDesignator(
+                            ) [NoDesignator]
+                          ) [DesignatorExpr]
+                        ) [Var]
+                      ) [SingleFactorDecl]
+                    ) [SingleTermDeclaration]
+                    NoExpr(
+                    ) [NoExpr]
+                  ) [MinusExprDeclaration]
+                ) [AssignDesignatorDecl]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignatorStatement]
+          ) [StatementListDecl]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 0
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  13:04:54,186 - ===================================
+INFO  13:04:54,189 - Deklarisana promenljiva y na liniji 2
+INFO  13:04:54,189 - Obradjuje se funkcija met na liniji 6
+INFO  13:04:54,189 - Deklarisana promenljiva m na liniji 6
+INFO  13:04:54,189 - Deklarisana promenljiva n na liniji 6
+ERROR 13:04:54,189 - Tip designatora nije istog tipa kao expr na liniji 8
+INFO  13:04:54,189 - Obradjuje se funkcija main na liniji 13
+INFO  13:04:54,190 -  Print count calls = 0
+INFO  13:04:54,190 -  Deklarisanih promenljivih ima = 3
+INFO  13:04:54,190 - ===================================

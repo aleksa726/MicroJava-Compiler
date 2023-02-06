@@ -1,0 +1,45 @@
+program test1
+
+int a;
+char c;
+
+const int con = 5;
+const int jedan = 1;
+const char cc = 'c';
+
+{
+	
+	char met(){
+		return 'a';
+	}
+	
+	char met2(char c){
+		return c;
+	}
+	
+	char met3(char c, char... args) char x;{
+		x = args[0];
+		return x;
+	}
+	
+	
+	void main()
+	char niz[];
+	{
+		niz = new char[3];
+		c = 'a';
+		niz[0] = 'b';
+		niz[1] = c;
+		niz[2] = cc;
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(eol);
+		niz[0] = met();
+		niz[1] = met2('b');
+		niz[2] = met3('a','c','b');
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+	}
+}

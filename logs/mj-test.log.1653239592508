@@ -1,0 +1,88 @@
+INFO  19:13:04,951 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  19:13:04,988 - #2 program
+INFO  19:13:04,989 - #46 MJProgram
+INFO  19:13:04,989 - #14 const
+INFO  19:13:04,989 - #46 int
+INFO  19:13:04,989 - #46 x
+INFO  19:13:04,990 - #30 =
+INFO  19:13:04,990 - #43 1
+INFO  19:13:04,991 - #5 ;
+INFO  19:13:04,991 - #3 {
+INFO  19:13:04,992 - #46 int
+INFO  19:13:04,992 - #46 main
+INFO  19:13:04,992 - #6 (
+INFO  19:13:04,993 - #7 )
+INFO  19:13:04,993 - #3 {
+INFO  19:13:04,994 - #9 return
+INFO  19:13:04,994 - #43 1
+INFO  19:13:04,995 - #5 ;
+INFO  19:13:04,996 - #4 }
+INFO  19:13:04,996 - #4 }
+INFO  19:13:05,000 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  19:13:05,000 - ===================================
+INFO  19:13:05,003 - Deklarisana konstanta x na liniji 3
+INFO  19:13:05,003 - Obradjuje se funkcija main na liniji 8
+INFO  19:13:05,003 -  Deklarisanih promenljivih ima = 0
+INFO  19:13:05,003 - ===================================

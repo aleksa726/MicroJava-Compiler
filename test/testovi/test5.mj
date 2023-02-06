@@ -1,0 +1,94 @@
+program test1
+
+int a;
+char c;
+
+const int con = 5;
+const int jedan = 1;
+const char cc = 'c';
+
+record Rec{
+	int x;
+	int y;
+	char c;
+}
+int i;
+Rec rec;
+
+{
+	
+	
+	
+	int met3(int x, int y, int... args) int xx;{
+		print(len(args));
+		return x + args[0];
+	}
+	
+	
+	
+	void main()
+	int niz[];
+	{
+		a = 2;
+		if(a > 5){
+			print('a');
+		}
+		else{
+			print('b');
+		}
+		
+		if(con > 3 && jedan > 0 && false){
+			print(jedan);
+			if(1>3 || true){
+				print('z');
+			}
+		}
+		else{
+			print(a);
+			if(a == 2){
+				a++;
+				if(a == 3){
+					print(a);
+				}
+			}
+			if(1>3 || true){
+				print('z');
+			}
+		}
+		
+		print(eol);
+		i = 0;
+		do{
+			print(i);
+			i++;
+		}while(i != 5);
+		
+		print(eol);
+		i = 0;
+		do{
+			do{
+				i++;
+				print('a');
+			}while(i < 2);
+			i++;
+			print(i);
+		}while(i != 5);
+		
+		print(eol);
+		i = 0;
+		do{
+			print(i);
+			if(i == 3){
+				break;
+			}
+			i++;
+			continue;
+			do{
+				i++;
+				print('a');
+			}while(i < 2);
+			i++;
+			print(i);
+		}while(i != 5);
+	}
+}

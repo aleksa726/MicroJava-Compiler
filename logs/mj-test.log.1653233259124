@@ -1,0 +1,89 @@
+INFO  23:16:12,043 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:16:12,080 - #2 program
+INFO  23:16:12,080 - #46 MJProgram
+INFO  23:16:12,080 - #14 const
+INFO  23:16:12,081 - #46 aaa
+INFO  23:16:12,081 - #46 x
+INFO  23:16:12,082 - #30 =
+INFO  23:16:12,082 - #43 1
+INFO  23:16:12,082 - #5 ;
+INFO  23:16:12,083 - #3 {
+INFO  23:16:12,083 - #46 int
+INFO  23:16:12,083 - #46 main
+INFO  23:16:12,084 - #6 (
+INFO  23:16:12,084 - #7 )
+INFO  23:16:12,084 - #3 {
+INFO  23:16:12,085 - #9 return
+INFO  23:16:12,085 - #43 1
+INFO  23:16:12,086 - #5 ;
+INFO  23:16:12,087 - #4 }
+INFO  23:16:12,087 - #4 }
+INFO  23:16:12,091 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           aaa
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:16:12,091 - ===================================
+ERROR 23:16:12,093 - Trazeni tip aaa nije pronadjen u tabeli simbola! na liniji 2
+ERROR 23:16:12,093 - Tipovi nisu odgovarajuci!  na liniji 2
+INFO  23:16:12,094 - Obradjuje se funkcija main na liniji 4
+INFO  23:16:12,094 -  Deklarisanih promenljivih ima = 0
+INFO  23:16:12,094 - ===================================

@@ -1,0 +1,149 @@
+INFO  23:44:40,319 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:44:40,357 - #2 program
+INFO  23:44:40,357 - #46 test302
+INFO  23:44:40,357 - #46 int
+INFO  23:44:40,358 - #46 niz
+INFO  23:44:40,359 - #15 [
+INFO  23:44:40,359 - #16 ]
+INFO  23:44:40,359 - #5 ;
+INFO  23:44:40,360 - #46 int
+INFO  23:44:40,361 - #46 a
+INFO  23:44:40,361 - #5 ;
+INFO  23:44:40,361 - #3 {
+INFO  23:44:40,361 - #13 void
+INFO  23:44:40,362 - #46 main
+INFO  23:44:40,362 - #6 (
+INFO  23:44:40,363 - #7 )
+INFO  23:44:40,364 - #3 {
+INFO  23:44:40,364 - #46 a
+INFO  23:44:40,365 - #30 =
+INFO  23:44:40,366 - #43 1
+INFO  23:44:40,367 - #5 ;
+INFO  23:44:40,368 - #12 print
+INFO  23:44:40,368 - #6 (
+INFO  23:44:40,369 - #46 a
+INFO  23:44:40,369 - #7 )
+INFO  23:44:40,369 - #5 ;
+INFO  23:44:40,369 - #4 }
+INFO  23:44:40,370 - #4 }
+INFO  23:44:40,375 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                OnlyIdent(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [OnlyIdent]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       1
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        PrintStmt(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                Var(
+                  OnlyIdent(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                  ) [OnlyIdent]
+                ) [Var]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintStmt]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:44:40,376 - ===================================
+INFO  23:44:40,380 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:44:40,380 - Pretraga na liniji 5 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:44:40,380 - Pretraga na liniji 6 (a), nadjeno Var a: int, 1, 0
+INFO  23:44:40,380 - Pretraga na liniji 9 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:44:40,380 -  Deklarisanih promenljivih ima = 2
+INFO  23:44:40,380 -  Globalnih promenljivih ima = 2
+INFO  23:44:40,381 - ===================================
+INFO  23:44:40,381 - Semanticka analiza je uspesno zavrsena!
+INFO  23:44:40,385 - designatorExpr
+INFO  23:44:40,385 - Assign designator
+INFO  23:44:40,385 - designatorExpr
+INFO  23:44:40,385 - Var
+INFO  23:44:40,385 - PRINT

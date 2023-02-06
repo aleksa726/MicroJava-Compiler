@@ -1,0 +1,225 @@
+INFO  00:37:25,945 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  00:37:25,991 - #2 program
+INFO  00:37:25,992 - #46 test302
+INFO  00:37:25,992 - #19 record
+INFO  00:37:25,993 - #46 RecPrvi
+INFO  00:37:25,993 - #3 {
+INFO  00:37:25,993 - #4 }
+INFO  00:37:25,994 - #19 record
+INFO  00:37:25,994 - #46 RecDrugi
+INFO  00:37:25,994 - #3 {
+INFO  00:37:25,994 - #4 }
+INFO  00:37:25,994 - #19 record
+INFO  00:37:25,994 - #46 Rec
+INFO  00:37:25,994 - #3 {
+INFO  00:37:25,994 - #46 int
+INFO  00:37:25,994 - #46 x
+INFO  00:37:25,995 - #5 ;
+INFO  00:37:25,996 - #4 }
+INFO  00:37:25,996 - #19 record
+INFO  00:37:25,996 - #46 RecTreci
+INFO  00:37:25,996 - #3 {
+INFO  00:37:25,996 - #4 }
+INFO  00:37:25,997 - #46 int
+INFO  00:37:25,997 - #46 niz
+INFO  00:37:25,997 - #15 [
+INFO  00:37:25,997 - #16 ]
+INFO  00:37:25,997 - #5 ;
+INFO  00:37:25,997 - #46 int
+INFO  00:37:25,997 - #46 a
+INFO  00:37:25,998 - #5 ;
+INFO  00:37:25,998 - #46 Rec
+INFO  00:37:25,998 - #46 r
+INFO  00:37:25,998 - #5 ;
+INFO  00:37:25,998 - #3 {
+INFO  00:37:25,998 - #13 void
+INFO  00:37:25,998 - #46 main
+INFO  00:37:25,999 - #6 (
+INFO  00:37:25,999 - #7 )
+INFO  00:37:26,000 - #3 {
+INFO  00:37:26,000 - #46 a
+INFO  00:37:26,001 - #30 =
+INFO  00:37:26,001 - #46 r
+INFO  00:37:26,002 - #42 .
+INFO  00:37:26,002 - #46 x
+INFO  00:37:26,003 - #5 ;
+INFO  00:37:26,004 - #4 }
+INFO  00:37:26,004 - #4 }
+INFO  00:37:26,009 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          DeclLists(
+            DeclLists(
+              DeclLists(
+                NoDeclLists(
+                ) [NoDeclLists]
+                RecordDeclar(
+                  RecordDeclaration(
+                    RecordName(
+                     RecPrvi
+                    ) [RecordName]
+                    NoVarList(
+                    ) [NoVarList]
+                  ) [RecordDeclaration]
+                ) [RecordDeclar]
+              ) [DeclLists]
+              RecordDeclar(
+                RecordDeclaration(
+                  RecordName(
+                   RecDrugi
+                  ) [RecordName]
+                  NoVarList(
+                  ) [NoVarList]
+                ) [RecordDeclaration]
+              ) [RecordDeclar]
+            ) [DeclLists]
+            RecordDeclar(
+              RecordDeclaration(
+                RecordName(
+                 Rec
+                ) [RecordName]
+                VarList(
+                  NoVarList(
+                  ) [NoVarList]
+                  VarDecl(
+                    VarType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [VarType]
+                    SingleVarDeclaration(
+                      VarDeclarationDecl(
+                       x
+                      ) [VarDeclarationDecl]
+                    ) [SingleVarDeclaration]
+                  ) [VarDecl]
+                ) [VarList]
+              ) [RecordDeclaration]
+            ) [RecordDeclar]
+          ) [DeclLists]
+          RecordDeclar(
+            RecordDeclaration(
+              RecordName(
+               RecTreci
+              ) [RecordName]
+              NoVarList(
+              ) [NoVarList]
+            ) [RecordDeclaration]
+          ) [RecordDeclar]
+        ) [DeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              ArrayDeclaration(
+               niz
+              ) [ArrayDeclaration]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           Rec
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           r
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignDesignatorDecl(
+              OnlyIdent(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+              ) [OnlyIdent]
+              AssignopDecl(
+              ) [AssignopDecl]
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    Var(
+                      FieldDesignator(
+                        DesignatorName(
+                         r
+                        ) [DesignatorName]
+                       x
+                      ) [FieldDesignator]
+                    ) [Var]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+            ) [AssignDesignatorDecl]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  00:37:26,010 - ===================================
+INFO  00:37:26,022 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  00:37:26,023 - Pretraga na liniji 5 (RecPrvi), nadjeno Type RecPrvi: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 5 (RecPrvi), nadjeno Type RecPrvi: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 9 (RecDrugi), nadjeno Type RecDrugi: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 9 (RecDrugi), nadjeno Type RecDrugi: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 13 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 14 (x), nadjeno Fld x: int, 0, 1
+INFO  00:37:26,023 - Pretraga na liniji 13 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld x: int, 0, 1 
+INFO  00:37:26,023 - Pretraga na liniji 17 (RecTreci), nadjeno Type RecTreci: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 17 (RecTreci), nadjeno Type RecTreci: Class [], 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 21 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  00:37:26,023 - Pretraga na liniji 22 (a), nadjeno Var a: int, 1, 0
+INFO  00:37:26,024 - Pretraga na liniji 23 (r), nadjeno Var r: Class [], 2, 0
+INFO  00:37:26,024 - Pretraga na liniji 26 (main), nadjeno Meth main: notype, 0, 0 

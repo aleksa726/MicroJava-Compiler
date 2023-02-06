@@ -1,0 +1,27 @@
+program test1
+
+int a;
+char c;
+
+const int con = 5;
+
+
+{
+
+	void main(){
+		print(con);
+		a = 1;
+		print(a);
+		a = con;
+		print(a);
+		a = con * 5 + 1;
+		print(a);
+		a = a / 2;
+		print(a);
+		c = 'a';
+		print(c);
+		c = 'B';
+		print(eol);
+		print(c, 5);
+	}
+}

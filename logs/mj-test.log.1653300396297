@@ -1,0 +1,119 @@
+INFO  12:06:20,092 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  12:06:20,129 - #2 program
+INFO  12:06:20,129 - #46 MJProgram
+INFO  12:06:20,129 - #14 const
+INFO  12:06:20,130 - #46 int
+INFO  12:06:20,130 - #46 x
+INFO  12:06:20,130 - #30 =
+INFO  12:06:20,131 - #43 1
+INFO  12:06:20,131 - #5 ;
+INFO  12:06:20,132 - #3 {
+INFO  12:06:20,132 - #46 int
+INFO  12:06:20,133 - #46 meth
+INFO  12:06:20,133 - #6 (
+INFO  12:06:20,133 - #46 int
+INFO  12:06:20,133 - #46 a
+INFO  12:06:20,133 - #11 ,
+INFO  12:06:20,134 - #46 int
+INFO  12:06:20,134 - #53 ...
+INFO  12:06:20,134 - #46 args
+INFO  12:06:20,134 - #7 )
+INFO  12:06:20,134 - #46 int
+INFO  12:06:20,134 - #46 z
+INFO  12:06:20,135 - #5 ;
+INFO  12:06:20,135 - #3 {
+INFO  12:06:20,136 - #43 1
+ERROR 12:06:20,136 - 
+Sintaksna greska na liniji 11
+INFO  12:06:20,136 - #30 =
+INFO  12:06:20,136 - #46 a
+INFO  12:06:20,136 - #5 ;
+INFO  12:06:20,137 - #9 return
+INFO  12:06:20,137 - #43 1
+INFO  12:06:20,137 - #5 ;
+INFO  12:06:20,137 - #4 }
+INFO  12:06:20,137 - #46 int
+INFO  12:06:20,137 - #46 main
+INFO  12:06:20,137 - #6 (
+INFO  12:06:20,137 - #7 )
+INFO  12:06:20,137 - #3 {
+INFO  12:06:20,137 - #9 return
+INFO  12:06:20,137 - #43 1
+ERROR 12:06:20,137 - Izvrsen oporavak od greske prilikom deklarisanja formalnog parametra u liniji 9
+INFO  12:06:20,139 - #5 ;
+INFO  12:06:20,139 - #4 }
+INFO  12:06:20,140 - #4 }
+INFO  12:06:20,144 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       meth
+      ) [MethodTypeName]
+      OnlyFormalParam(
+        SingleFormalParamDecl(
+          ErrorFormalParam(
+          ) [ErrorFormalParam]
+        ) [SingleFormalParamDecl]
+      ) [OnlyFormalParam]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  12:06:20,144 - ===================================
+INFO  12:06:20,147 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  12:06:20,147 - Pretraga na liniji 3 (x), nadjeno Con x: int, 0, 0
+INFO  12:06:20,147 - Pretraga na liniji 9 (meth), nadjeno Meth meth: int, 0, 0 
+INFO  12:06:20,147 -  Deklarisanih promenljivih ima = 0
+INFO  12:06:20,147 -  Globalnih promenljivih ima = 0
+INFO  12:06:20,147 - ===================================

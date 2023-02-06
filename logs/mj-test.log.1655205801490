@@ -1,0 +1,293 @@
+INFO  13:22:17,168 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  13:22:17,216 - #2 program
+INFO  13:22:17,216 - #46 test302
+INFO  13:22:17,216 - #46 bool
+INFO  13:22:17,217 - #46 flag
+INFO  13:22:17,218 - #5 ;
+INFO  13:22:17,218 - #46 int
+INFO  13:22:17,219 - #46 niz
+INFO  13:22:17,219 - #15 [
+INFO  13:22:17,219 - #16 ]
+INFO  13:22:17,219 - #5 ;
+INFO  13:22:17,219 - #46 int
+INFO  13:22:17,219 - #46 a
+INFO  13:22:17,219 - #5 ;
+INFO  13:22:17,219 - #3 {
+INFO  13:22:17,219 - #13 void
+INFO  13:22:17,220 - #46 main
+INFO  13:22:17,220 - #6 (
+INFO  13:22:17,221 - #7 )
+INFO  13:22:17,221 - #3 {
+INFO  13:22:17,222 - #46 a
+INFO  13:22:17,222 - #30 =
+INFO  13:22:17,223 - #43 1
+INFO  13:22:17,224 - #5 ;
+INFO  13:22:17,225 - #21 do
+INFO  13:22:17,226 - #3 {
+INFO  13:22:17,226 - #46 a
+INFO  13:22:17,226 - #27 ++
+INFO  13:22:17,226 - #5 ;
+INFO  13:22:17,226 - #12 print
+INFO  13:22:17,226 - #6 (
+INFO  13:22:17,226 - #46 a
+INFO  13:22:17,226 - #7 )
+INFO  13:22:17,227 - #5 ;
+INFO  13:22:17,227 - #24 continue
+INFO  13:22:17,227 - #5 ;
+INFO  13:22:17,227 - #12 print
+INFO  13:22:17,228 - #6 (
+INFO  13:22:17,228 - #44 a
+INFO  13:22:17,228 - #7 )
+INFO  13:22:17,228 - #5 ;
+INFO  13:22:17,228 - #4 }
+INFO  13:22:17,228 - #22 while
+INFO  13:22:17,228 - #6 (
+INFO  13:22:17,229 - #46 a
+INFO  13:22:17,229 - #38 <
+INFO  13:22:17,229 - #43 10
+INFO  13:22:17,230 - #7 )
+INFO  13:22:17,230 - #5 ;
+INFO  13:22:17,231 - #4 }
+INFO  13:22:17,231 - #4 }
+INFO  13:22:17,237 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        NoDeclLists(
+        ) [NoDeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               bool
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               flag
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                OnlyIdent(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [OnlyIdent]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       1
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        DoWhileStatement(
+          DoStatement(
+            Do(
+            ) [Do]
+            StatementListDecl(
+              NoStatementList(
+              ) [NoStatementList]
+              ListOfStatements(
+                StatementListDecl(
+                  StatementListDecl(
+                    StatementListDecl(
+                      StatementListDecl(
+                        NoStatementList(
+                        ) [NoStatementList]
+                        StatementDesignatorStatement(
+                          DesignatorStatementINC(
+                            OnlyIdent(
+                              DesignatorName(
+                               a
+                              ) [DesignatorName]
+                            ) [OnlyIdent]
+                          ) [DesignatorStatementINC]
+                        ) [StatementDesignatorStatement]
+                      ) [StatementListDecl]
+                      PrintStmt(
+                        MinusExprDeclaration(
+                          NoMinus(
+                          ) [NoMinus]
+                          SingleTermDeclaration(
+                            SingleFactorDecl(
+                              Var(
+                                OnlyIdent(
+                                  DesignatorName(
+                                   a
+                                  ) [DesignatorName]
+                                ) [OnlyIdent]
+                              ) [Var]
+                            ) [SingleFactorDecl]
+                          ) [SingleTermDeclaration]
+                          NoExpr(
+                          ) [NoExpr]
+                        ) [MinusExprDeclaration]
+                        NoNumConstOpt(
+                        ) [NoNumConstOpt]
+                      ) [PrintStmt]
+                    ) [StatementListDecl]
+                    ContinueStatement(
+                    ) [ContinueStatement]
+                  ) [StatementListDecl]
+                  PrintStmt(
+                    MinusExprDeclaration(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleTermDeclaration(
+                        SingleFactorDecl(
+                          CharFactor(
+                           a
+                          ) [CharFactor]
+                        ) [SingleFactorDecl]
+                      ) [SingleTermDeclaration]
+                      NoExpr(
+                      ) [NoExpr]
+                    ) [MinusExprDeclaration]
+                    NoNumConstOpt(
+                    ) [NoNumConstOpt]
+                  ) [PrintStmt]
+                ) [StatementListDecl]
+              ) [ListOfStatements]
+            ) [StatementListDecl]
+            While(
+            ) [While]
+            DoCondition(
+              DoCond(
+                SingleConditionDeclaration(
+                  SingleCondTermDeclaration(
+                    CondFactExpresions(
+                      MinusExprDeclaration(
+                        NoMinus(
+                        ) [NoMinus]
+                        SingleTermDeclaration(
+                          SingleFactorDecl(
+                            Var(
+                              OnlyIdent(
+                                DesignatorName(
+                                 a
+                                ) [DesignatorName]
+                              ) [OnlyIdent]
+                            ) [Var]
+                          ) [SingleFactorDecl]
+                        ) [SingleTermDeclaration]
+                        NoExpr(
+                        ) [NoExpr]
+                      ) [MinusExprDeclaration]
+                      RelopLT(
+                      ) [RelopLT]
+                      MinusExprDeclaration(
+                        NoMinus(
+                        ) [NoMinus]
+                        SingleTermDeclaration(
+                          SingleFactorDecl(
+                            NumberFactor(
+                             10
+                            ) [NumberFactor]
+                          ) [SingleFactorDecl]
+                        ) [SingleTermDeclaration]
+                        NoExpr(
+                        ) [NoExpr]
+                      ) [MinusExprDeclaration]
+                    ) [CondFactExpresions]
+                  ) [SingleCondTermDeclaration]
+                ) [SingleConditionDeclaration]
+              ) [DoCond]
+            ) [DoCondition]
+          ) [DoStatement]
+        ) [DoWhileStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  13:22:17,237 - ===================================
+INFO  13:22:17,253 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  13:22:17,253 - Pretraga na liniji 5 (flag), nadjeno Var flag: , 0, 0
+INFO  13:22:17,253 - Pretraga na liniji 7 (niz), nadjeno Var niz: Arr of int, 1, 0
+INFO  13:22:17,253 - Pretraga na liniji 9 (a), nadjeno Var a: int, 2, 0
+INFO  13:22:17,253 - Pretraga na liniji 12 (main), nadjeno Meth main: notype, 0, 0 
+INFO  13:22:17,253 -  Deklarisanih promenljivih ima = 3
+INFO  13:22:17,253 -  Globalnih promenljivih ima = 3
+INFO  13:22:17,253 - ===================================
+INFO  13:22:17,254 - Semanticka analiza je uspesno zavrsena!
+INFO  13:22:17,263 - designatorExpr
+INFO  13:22:17,263 - EXPR
+INFO  13:22:17,263 - Assign designator
+INFO  13:22:17,263 - designatorExpr
+INFO  13:22:17,263 - inc
+INFO  13:22:17,263 - designatorExpr
+INFO  13:22:17,264 - Var
+INFO  13:22:17,264 - EXPR
+INFO  13:22:17,264 - PRINT
+INFO  13:22:17,264 - EXPR
+INFO  13:22:17,264 - PRINT
+INFO  13:22:17,264 - designatorExpr
+INFO  13:22:17,264 - Var
+INFO  13:22:17,264 - EXPR
+INFO  13:22:17,264 - EXPR

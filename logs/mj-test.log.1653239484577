@@ -1,0 +1,158 @@
+INFO  19:10:53,004 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  19:10:53,040 - #2 program
+INFO  19:10:53,040 - #46 MJProgram
+INFO  19:10:53,041 - #14 const
+INFO  19:10:53,041 - #46 int
+INFO  19:10:53,041 - #46 x
+INFO  19:10:53,042 - #30 =
+INFO  19:10:53,042 - #43 1
+INFO  19:10:53,043 - #5 ;
+INFO  19:10:53,043 - #46 int
+INFO  19:10:53,044 - #46 niz1
+INFO  19:10:53,044 - #15 [
+INFO  19:10:53,044 - #16 ]
+INFO  19:10:53,044 - #11 ,
+INFO  19:10:53,045 - #46 char
+INFO  19:10:53,045 - #46 niz2
+ERROR 19:10:53,045 - 
+Sintaksna greska na liniji 5
+INFO  19:10:53,045 - #15 [
+INFO  19:10:53,045 - #16 ]
+INFO  19:10:53,045 - #5 ;
+INFO  19:10:53,046 - #3 {
+INFO  19:10:53,046 - #46 int
+INFO  19:10:53,046 - #46 main
+ERROR 19:10:53,046 - Izvrsen oporavak od greske prilikom deklarisanja promenljive u liniji 5
+INFO  19:10:53,048 - #6 (
+INFO  19:10:53,049 - #7 )
+INFO  19:10:53,049 - #46 int
+INFO  19:10:53,049 - #46 a
+INFO  19:10:53,049 - #5 ;
+INFO  19:10:53,049 - #46 int
+INFO  19:10:53,050 - #46 x
+INFO  19:10:53,050 - #5 ;
+INFO  19:10:53,050 - #3 {
+INFO  19:10:53,050 - #9 return
+INFO  19:10:53,050 - #43 1
+INFO  19:10:53,051 - #5 ;
+INFO  19:10:53,051 - #4 }
+INFO  19:10:53,052 - #4 }
+INFO  19:10:53,056 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      ConstDeclar(
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          SingleConstDeclaration(
+            NumConst(
+             x
+              AssignopDecl(
+              ) [AssignopDecl]
+             1
+            ) [NumConst]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz1
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+          ErrorVar(
+          ) [ErrorVar]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      VarList(
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               a
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarList]
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             x
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  19:10:53,056 - ===================================
+INFO  19:10:53,059 - Deklarisana konstanta x na liniji 3
+INFO  19:10:53,059 - Deklarisana nizovska promenljiva niz1 na liniji 5
+INFO  19:10:53,059 - Obradjuje se funkcija main na liniji 9
+INFO  19:10:53,060 - Deklarisana promenljiva a na liniji 9
+INFO  19:10:53,060 - Deklarisana promenljiva x na liniji 9
+INFO  19:10:53,060 -  Deklarisanih promenljivih ima = 3
+INFO  19:10:53,060 - ===================================

@@ -1,0 +1,134 @@
+INFO  23:46:23,619 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:46:23,655 - #2 program
+INFO  23:46:23,656 - #46 test302
+INFO  23:46:23,656 - #46 int
+INFO  23:46:23,657 - #46 niz
+INFO  23:46:23,657 - #15 [
+INFO  23:46:23,657 - #16 ]
+INFO  23:46:23,657 - #5 ;
+INFO  23:46:23,658 - #46 int
+INFO  23:46:23,658 - #46 a
+INFO  23:46:23,658 - #5 ;
+INFO  23:46:23,658 - #3 {
+INFO  23:46:23,659 - #13 void
+INFO  23:46:23,659 - #46 main
+INFO  23:46:23,659 - #6 (
+INFO  23:46:23,660 - #7 )
+INFO  23:46:23,660 - #3 {
+INFO  23:46:23,661 - #46 niz
+INFO  23:46:23,661 - #15 [
+INFO  23:46:23,662 - #43 0
+INFO  23:46:23,662 - #16 ]
+INFO  23:46:23,663 - #30 =
+INFO  23:46:23,663 - #43 1
+INFO  23:46:23,664 - #5 ;
+INFO  23:46:23,664 - #4 }
+INFO  23:46:23,664 - #4 }
+INFO  23:46:23,669 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignDesignatorDecl(
+              ArrayDesignator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       0
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [ArrayDesignator]
+              AssignopDecl(
+              ) [AssignopDecl]
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    NumberFactor(
+                     1
+                    ) [NumberFactor]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+            ) [AssignDesignatorDecl]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:46:23,669 - ===================================
+INFO  23:46:23,672 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:46:23,672 - Pretraga na liniji 5 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:46:23,672 - Pretraga na liniji 6 (a), nadjeno Var a: int, 1, 0
+INFO  23:46:23,672 - Pretraga na liniji 9 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:46:23,673 -  Deklarisanih promenljivih ima = 2
+INFO  23:46:23,673 -  Globalnih promenljivih ima = 2
+INFO  23:46:23,673 - ===================================
+INFO  23:46:23,673 - Semanticka analiza je uspesno zavrsena!
+INFO  23:46:23,676 - designatorExpr
+INFO  23:46:23,676 - Assign designator

@@ -1,0 +1,152 @@
+INFO  01:39:49,869 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  01:39:49,907 - #2 program
+INFO  01:39:49,908 - #46 MJProgram
+INFO  01:39:49,908 - #14 const
+INFO  01:39:49,908 - #46 int
+INFO  01:39:49,909 - #46 x
+INFO  01:39:49,909 - #30 =
+INFO  01:39:49,909 - #43 1
+INFO  01:39:49,910 - #5 ;
+INFO  01:39:49,910 - #3 {
+INFO  01:39:49,911 - #46 chr
+INFO  01:39:49,911 - #46 meth
+INFO  01:39:49,912 - #6 (
+INFO  01:39:49,912 - #46 int
+INFO  01:39:49,912 - #46 a
+INFO  01:39:49,912 - #11 ,
+INFO  01:39:49,912 - #46 int
+INFO  01:39:49,912 - #53 ...
+INFO  01:39:49,913 - #46 args
+INFO  01:39:49,913 - #7 )
+INFO  01:39:49,913 - #3 {
+INFO  01:39:49,913 - #9 return
+INFO  01:39:49,914 - #43 1
+INFO  01:39:49,915 - #5 ;
+INFO  01:39:49,915 - #4 }
+INFO  01:39:49,915 - #46 int
+INFO  01:39:49,916 - #46 main
+INFO  01:39:49,916 - #6 (
+INFO  01:39:49,916 - #7 )
+INFO  01:39:49,916 - #3 {
+INFO  01:39:49,916 - #9 return
+INFO  01:39:49,916 - #43 1
+INFO  01:39:49,916 - #5 ;
+INFO  01:39:49,917 - #4 }
+INFO  01:39:49,917 - #4 }
+INFO  01:39:49,921 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             chr
+            ) [Type]
+          ) [MethodType]
+         meth
+        ) [MethodTypeName]
+        FormParsAndVarArgsDecl(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+          VarArgsDecl(
+            Type(
+             int
+            ) [Type]
+           args
+          ) [VarArgsDecl]
+        ) [FormParsAndVarArgsDecl]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  01:39:49,921 - ===================================
+INFO  01:39:49,924 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  01:39:49,924 - Pretraga na liniji 3 (x), nadjeno Con x: int, 0, 0
+ERROR 01:39:49,924 - Ime chr ne predstavlja tip! - na liniji 9
+ERROR 01:39:49,924 - Povratni tip metode nije ispravan! - na liniji 9

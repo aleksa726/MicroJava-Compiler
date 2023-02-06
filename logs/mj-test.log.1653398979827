@@ -1,0 +1,140 @@
+INFO  15:28:44,835 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  15:28:44,893 - #2 program
+INFO  15:28:44,893 - #46 MJProgram
+INFO  15:28:44,893 - #46 int
+INFO  15:28:44,894 - #46 x
+INFO  15:28:44,895 - #5 ;
+INFO  15:28:44,895 - #3 {
+INFO  15:28:44,896 - #46 chr
+INFO  15:28:44,896 - #46 met
+INFO  15:28:44,896 - #6 (
+INFO  15:28:44,897 - #46 int
+INFO  15:28:44,897 - #46 a
+INFO  15:28:44,897 - #7 )
+INFO  15:28:44,897 - #3 {
+INFO  15:28:44,898 - #9 return
+INFO  15:28:44,898 - #43 1
+INFO  15:28:44,899 - #5 ;
+INFO  15:28:44,899 - #4 }
+INFO  15:28:44,900 - #46 int
+INFO  15:28:44,900 - #46 main
+INFO  15:28:44,900 - #6 (
+INFO  15:28:44,900 - #7 )
+INFO  15:28:44,900 - #3 {
+INFO  15:28:44,901 - #9 return
+INFO  15:28:44,901 - #43 1
+INFO  15:28:44,901 - #5 ;
+INFO  15:28:44,901 - #4 }
+INFO  15:28:44,901 - #4 }
+INFO  15:28:44,905 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           x
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             chr
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  15:28:44,906 - ===================================
+INFO  15:28:44,908 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  15:28:44,908 - Pretraga na liniji 3 (x), nadjeno Var x: int, 0, 0
+ERROR 15:28:44,909 - Ime chr ne predstavlja tip! - na liniji 7
+ERROR 15:28:44,909 - Povratni tip metode nije ispravan! - na liniji 7
+INFO  15:28:44,909 - Pretraga na liniji 11 (main), nadjeno Meth main: int, 0, 0 
+INFO  15:28:44,909 -  Deklarisanih promenljivih ima = 1
+INFO  15:28:44,909 -  Globalnih promenljivih ima = 1
+INFO  15:28:44,909 - ===================================

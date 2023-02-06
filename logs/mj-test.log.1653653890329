@@ -1,0 +1,125 @@
+INFO  13:15:05,700 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  13:15:05,737 - #2 program
+INFO  13:15:05,737 - #46 test302
+INFO  13:15:05,737 - #3 {
+INFO  13:15:05,738 - #13 void
+INFO  13:15:05,739 - #46 main
+INFO  13:15:05,739 - #6 (
+INFO  13:15:05,739 - #46 int
+INFO  13:15:05,740 - #46 x
+INFO  13:15:05,740 - #7 )
+INFO  13:15:05,740 - #46 int
+INFO  13:15:05,741 - #46 z
+INFO  13:15:05,741 - #5 ;
+INFO  13:15:05,741 - #3 {
+INFO  13:15:05,742 - #12 print
+INFO  13:15:05,742 - #6 (
+INFO  13:15:05,742 - #43 1
+INFO  13:15:05,743 - #7 )
+INFO  13:15:05,744 - #5 ;
+INFO  13:15:05,744 - #12 print
+INFO  13:15:05,744 - #6 (
+INFO  13:15:05,744 - #43 2
+INFO  13:15:05,745 - #7 )
+INFO  13:15:05,745 - #5 ;
+INFO  13:15:05,745 - #9 return
+INFO  13:15:05,745 - #5 ;
+INFO  13:15:05,745 - #4 }
+INFO  13:15:05,745 - #4 }
+INFO  13:15:05,750 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoDeclLists(
+  ) [NoDeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      OnlyFormalParam(
+        SingleFormalParamDecl(
+          FormalParamDeclaration(
+            Type(
+             int
+            ) [Type]
+           x
+          ) [FormalParamDeclaration]
+        ) [SingleFormalParamDecl]
+      ) [OnlyFormalParam]
+      VarList(
+        NoVarList(
+        ) [NoVarList]
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             z
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarList]
+      StatementListDecl(
+        StatementListDecl(
+          StatementListDecl(
+            NoStatementList(
+            ) [NoStatementList]
+            PrintStmt(
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    NumberFactor(
+                     1
+                    ) [NumberFactor]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [PrintStmt]
+          ) [StatementListDecl]
+          PrintStmt(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   2
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintStmt]
+        ) [StatementListDecl]
+        ReturnVoidStatement(
+        ) [ReturnVoidStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  13:15:05,750 - ===================================
+INFO  13:15:05,753 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  13:15:05,753 - Pretraga na liniji 8 (main), nadjeno Meth main: notype, 0, 0 
+INFO  13:15:05,753 - Pretraga na liniji 8 (x), nadjeno Var x: int, 0, 1
+INFO  13:15:05,753 - Pretraga na liniji 8 (z), nadjeno Var z: int, 1, 1
+INFO  13:15:05,753 -  Deklarisanih promenljivih ima = 1
+INFO  13:15:05,753 -  Globalnih promenljivih ima = 0
+INFO  13:15:05,753 - ===================================
+INFO  13:15:05,754 - Semanticka analiza je uspesno zavrsena!

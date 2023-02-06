@@ -1,0 +1,108 @@
+INFO  17:42:39,261 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  17:42:39,297 - #2 program
+INFO  17:42:39,298 - #46 MJProgram
+INFO  17:42:39,298 - #46 int
+INFO  17:42:39,298 - #46 a
+INFO  17:42:39,299 - #5 ;
+INFO  17:42:39,299 - #14 const
+INFO  17:42:39,300 - #46 char
+INFO  17:42:39,300 - #46 x
+INFO  17:42:39,301 - #30 =
+INFO  17:42:39,301 - #43 1
+INFO  17:42:39,301 - #5 ;
+INFO  17:42:39,302 - #3 {
+INFO  17:42:39,302 - #46 int
+INFO  17:42:39,302 - #46 main
+INFO  17:42:39,303 - #6 (
+INFO  17:42:39,303 - #7 )
+INFO  17:42:39,303 - #3 {
+INFO  17:42:39,304 - #9 return
+INFO  17:42:39,304 - #43 1
+INFO  17:42:39,305 - #5 ;
+INFO  17:42:39,306 - #4 }
+INFO  17:42:39,306 - #4 }
+INFO  17:42:39,310 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           char
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  17:42:39,311 - ===================================
+INFO  17:42:39,313 - Deklarisana promenljiva a na liniji 2
+ERROR 17:42:39,313 - Tipovi nisu odgovarajuci!  na liniji 3
+INFO  17:42:39,313 - Obradjuje se funkcija main na liniji 5
+INFO  17:42:39,314 -  Deklarisanih promenljivih ima = 1
+INFO  17:42:39,314 - ===================================

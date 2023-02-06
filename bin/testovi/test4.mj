@@ -1,0 +1,66 @@
+program test1
+
+int a;
+char c;
+
+const int con = 5;
+const int jedan = 1;
+const char cc = 'c';
+
+record Rec{
+	int x;
+	int y;
+	char c;
+}
+
+Rec rec;
+
+{
+	
+	char met(){
+		return 'A';
+	}
+	
+	int met2(int x){
+		return x*x;
+	}
+	
+	int met3(int x, int y, int... args){
+		return x + args[0];
+	}
+	
+	
+	void main()
+	int niz[];
+	{
+		c = 'b';
+		rec = new Rec;
+		rec.x = 1;
+		rec.y = 2;
+		rec.c = 'a';
+		print(rec.x);
+		print(rec.y);
+		print(rec.c);
+		print(c);
+		print(eol);
+		
+		rec.x = con * 5 + jedan;
+		rec.y = met2(5);
+		rec.c = met();
+		print(rec.x);
+		print(rec.y);
+		print(rec.c);
+		print(eol);
+		
+		rec.x = met3(rec.y, 1, 2);
+		print(rec.x);
+		a = rec.x;
+		print(a);
+		niz = new int[10];
+		niz[0] = rec.y;
+		print(niz[0]);
+		print(eol);
+		
+		
+	}
+}

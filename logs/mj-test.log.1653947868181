@@ -1,0 +1,119 @@
+INFO  23:57:27,906 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:57:27,942 - #2 program
+INFO  23:57:27,942 - #46 test302
+INFO  23:57:27,943 - #19 record
+INFO  23:57:27,943 - #46 Rec
+INFO  23:57:27,943 - #3 {
+INFO  23:57:27,944 - #46 int
+INFO  23:57:27,944 - #46 x
+INFO  23:57:27,945 - #5 ;
+INFO  23:57:27,945 - #4 }
+INFO  23:57:27,946 - #46 int
+INFO  23:57:27,946 - #46 niz
+INFO  23:57:27,946 - #15 [
+INFO  23:57:27,946 - #16 ]
+INFO  23:57:27,946 - #5 ;
+INFO  23:57:27,946 - #46 int
+INFO  23:57:27,947 - #46 a
+INFO  23:57:27,947 - #5 ;
+INFO  23:57:27,947 - #3 {
+INFO  23:57:27,947 - #13 void
+INFO  23:57:27,947 - #46 main
+INFO  23:57:27,948 - #6 (
+INFO  23:57:27,948 - #7 )
+INFO  23:57:27,949 - #3 {
+INFO  23:57:27,949 - #4 }
+INFO  23:57:27,949 - #4 }
+INFO  23:57:27,953 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        NoDeclLists(
+        ) [NoDeclLists]
+        RecordDeclar(
+          RecordDeclaration(
+            RecordName(
+             Rec
+            ) [RecordName]
+            VarList(
+              NoVarList(
+              ) [NoVarList]
+              VarDecl(
+                VarType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [VarType]
+                SingleVarDeclaration(
+                  VarDeclarationDecl(
+                   x
+                  ) [VarDeclarationDecl]
+                ) [SingleVarDeclaration]
+              ) [VarDecl]
+            ) [VarList]
+          ) [RecordDeclaration]
+        ) [RecordDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:57:27,954 - ===================================
+INFO  23:57:27,957 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:57:27,957 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  23:57:27,957 - Pretraga na liniji 6 (x), nadjeno Fld x: int, 0, 1
+INFO  23:57:27,957 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld x: int, 0, 1 
+INFO  23:57:27,957 - Pretraga na liniji 8 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:57:27,957 - Pretraga na liniji 9 (a), nadjeno Var a: int, 1, 0
+INFO  23:57:27,957 - Pretraga na liniji 15 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:57:27,958 -  Deklarisanih promenljivih ima = 3
+INFO  23:57:27,958 -  Globalnih promenljivih ima = 3
+INFO  23:57:27,958 - ===================================
+INFO  23:57:27,958 - Semanticka analiza je uspesno zavrsena!

@@ -1,0 +1,188 @@
+INFO  19:09:20,387 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  19:09:20,424 - #2 program
+INFO  19:09:20,424 - #46 MJProgram
+INFO  19:09:20,424 - #46 int
+INFO  19:09:20,425 - #46 a
+INFO  19:09:20,426 - #11 ,
+INFO  19:09:20,426 - #46 b
+INFO  19:09:20,426 - #11 ,
+INFO  19:09:20,426 - #46 c
+INFO  19:09:20,426 - #11 ,
+INFO  19:09:20,426 - #46 d
+INFO  19:09:20,427 - #15 [
+INFO  19:09:20,427 - #16 ]
+INFO  19:09:20,427 - #5 ;
+INFO  19:09:20,427 - #14 const
+INFO  19:09:20,427 - #46 int
+INFO  19:09:20,428 - #46 x
+INFO  19:09:20,428 - #30 =
+INFO  19:09:20,428 - #43 1
+INFO  19:09:20,429 - #5 ;
+INFO  19:09:20,429 - #46 bool
+INFO  19:09:20,430 - #46 e
+INFO  19:09:20,430 - #5 ;
+INFO  19:09:20,430 - #46 int
+INFO  19:09:20,430 - #46 niz1
+INFO  19:09:20,430 - #15 [
+INFO  19:09:20,430 - #16 ]
+INFO  19:09:20,430 - #11 ,
+INFO  19:09:20,431 - #46 char
+INFO  19:09:20,431 - #46 niz2
+ERROR 19:09:20,431 - 
+Sintaksna greska na liniji 5
+INFO  19:09:20,431 - #15 [
+INFO  19:09:20,431 - #16 ]
+INFO  19:09:20,431 - #5 ;
+INFO  19:09:20,432 - #3 {
+INFO  19:09:20,432 - #46 int
+INFO  19:09:20,432 - #46 main
+ERROR 19:09:20,432 - Izvrsen oporavak od greske prilikom deklarisanja promenljive u liniji 5
+INFO  19:09:20,433 - #6 (
+INFO  19:09:20,433 - #7 )
+INFO  19:09:20,434 - #3 {
+INFO  19:09:20,434 - #9 return
+INFO  19:09:20,434 - #43 1
+INFO  19:09:20,435 - #5 ;
+INFO  19:09:20,436 - #4 }
+INFO  19:09:20,436 - #4 }
+INFO  19:09:20,440 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          NoDeclLists(
+          ) [NoDeclLists]
+          VarDeclar(
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              VarDeclarationList(
+                VarDeclarationList(
+                  VarDeclarationList(
+                    SingleVarDeclaration(
+                      VarDeclarationDecl(
+                       a
+                      ) [VarDeclarationDecl]
+                    ) [SingleVarDeclaration]
+                    VarDeclarationDecl(
+                     b
+                    ) [VarDeclarationDecl]
+                  ) [VarDeclarationList]
+                  VarDeclarationDecl(
+                   c
+                  ) [VarDeclarationDecl]
+                ) [VarDeclarationList]
+                ArrayDeclaration(
+                 d
+                ) [ArrayDeclaration]
+              ) [VarDeclarationList]
+            ) [VarDecl]
+          ) [VarDeclar]
+        ) [DeclLists]
+        ConstDeclar(
+          ConstDecl(
+            ConstType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstType]
+            SingleConstDeclaration(
+              NumConst(
+               x
+                AssignopDecl(
+                ) [AssignopDecl]
+               1
+              ) [NumConst]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             e
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz1
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+          ErrorVar(
+          ) [ErrorVar]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  19:09:20,441 - ===================================
+INFO  19:09:20,443 - Deklarisana promenljiva a na liniji 2
+INFO  19:09:20,444 - Deklarisana promenljiva b na liniji 2
+INFO  19:09:20,444 - Deklarisana promenljiva c na liniji 2
+INFO  19:09:20,444 - Deklarisana nizovska promenljiva d na liniji 2
+INFO  19:09:20,444 - Deklarisana konstanta x na liniji 3
+INFO  19:09:20,444 - Deklarisana promenljiva e na liniji 4
+INFO  19:09:20,444 - Deklarisana nizovska promenljiva niz1 na liniji 5
+INFO  19:09:20,444 - Obradjuje se funkcija main na liniji 9
+INFO  19:09:20,444 -  Deklarisanih promenljivih ima = 6
+INFO  19:09:20,444 - ===================================

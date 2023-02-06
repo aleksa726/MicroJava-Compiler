@@ -1,0 +1,119 @@
+INFO  19:32:27,956 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  19:32:27,992 - #2 program
+INFO  19:32:27,992 - #46 MJProgram
+INFO  19:32:27,992 - #14 const
+INFO  19:32:27,993 - #46 int
+INFO  19:32:27,993 - #46 x
+INFO  19:32:27,993 - #30 =
+INFO  19:32:27,994 - #43 1
+INFO  19:32:27,994 - #5 ;
+INFO  19:32:27,994 - #46 int
+INFO  19:32:27,995 - #46 a
+INFO  19:32:27,995 - #11 ,
+INFO  19:32:27,996 - #46 b
+INFO  19:32:27,996 - #5 ;
+INFO  19:32:27,996 - #3 {
+INFO  19:32:27,996 - #46 int
+INFO  19:32:27,997 - #46 main
+INFO  19:32:27,997 - #6 (
+INFO  19:32:27,997 - #7 )
+INFO  19:32:27,998 - #3 {
+INFO  19:32:27,998 - #9 return
+INFO  19:32:27,999 - #43 1
+INFO  19:32:27,999 - #5 ;
+INFO  19:32:28,000 - #4 }
+INFO  19:32:28,000 - #4 }
+INFO  19:32:28,005 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      ConstDeclar(
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          SingleConstDeclaration(
+            NumConst(
+             x
+              AssignopDecl(
+              ) [AssignopDecl]
+             1
+            ) [NumConst]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+          VarDeclarationDecl(
+           b
+          ) [VarDeclarationDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  19:32:28,005 - ===================================
+INFO  19:32:28,008 - Pretraga na liniji 1 Prog MJProgram: notype, 0, 1 
+
+INFO  19:32:28,008 - Pretraga na liniji 3 Prog MJProgram: notype, 0, 1 
+Con x: int, 0, 0 
+INFO  19:32:28,008 - Deklarisana promenljiva a na liniji 4
+INFO  19:32:28,008 - Deklarisana promenljiva b na liniji 4
+INFO  19:32:28,008 - Obradjuje se funkcija main na liniji 8
+INFO  19:32:28,008 -  Deklarisanih promenljivih ima = 2
+INFO  19:32:28,008 - ===================================

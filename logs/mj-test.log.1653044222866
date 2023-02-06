@@ -1,0 +1,122 @@
+INFO  11:41:42,742 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  11:41:42,779 - #2 program
+INFO  11:41:42,779 - #46 MJProgram
+INFO  11:41:42,779 - #46 int
+INFO  11:41:42,780 - #46 x
+INFO  11:41:42,780 - #11 ,
+INFO  11:41:42,780 - #46 y
+INFO  11:41:42,781 - #5 ;
+INFO  11:41:42,781 - #3 {
+INFO  11:41:42,781 - #46 int
+INFO  11:41:42,782 - #46 met
+INFO  11:41:42,782 - #6 (
+INFO  11:41:42,782 - #7 )
+INFO  11:41:42,783 - #46 int
+INFO  11:41:42,783 - #46 m
+INFO  11:41:42,783 - #5 ;
+INFO  11:41:42,783 - #3 {
+INFO  11:41:42,783 - #9 return
+INFO  11:41:42,784 - #5 ;
+INFO  11:41:42,784 - #4 }
+INFO  11:41:42,784 - #46 int
+INFO  11:41:42,785 - #46 main
+INFO  11:41:42,785 - #6 (
+INFO  11:41:42,785 - #7 )
+INFO  11:41:42,785 - #3 {
+INFO  11:41:42,785 - #4 }
+INFO  11:41:42,785 - #4 }
+INFO  11:41:42,789 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        VarDeclarationList(
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             x
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+          VarDeclarationDecl(
+           y
+          ) [VarDeclarationDecl]
+        ) [VarDeclarationList]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        NoFormParsAndVarArgs(
+        ) [NoFormParsAndVarArgs]
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               m
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnVoidStatement(
+          ) [ReturnVoidStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  11:41:42,790 - ===================================
+INFO  11:41:42,792 - Deklarisana promenljiva x na liniji 2
+INFO  11:41:42,792 - Deklarisana promenljiva y na liniji 2
+INFO  11:41:42,792 - Obradjuje se funkcija met na liniji 6
+INFO  11:41:42,792 - Deklarisana promenljiva m na liniji 6
+ERROR 11:41:42,792 - Tip funkcije met i povratne vrednosti se ne slazu!
+INFO  11:41:42,792 - Obradjuje se funkcija main na liniji 11
+ERROR 11:41:42,792 - Semanticka greska na liniji 11: funkcija main nema return iskaz!
+INFO  11:41:42,792 -  Print count calls = 0
+INFO  11:41:42,792 -  Deklarisanih promenljivih ima = 3
+INFO  11:41:42,792 - ===================================

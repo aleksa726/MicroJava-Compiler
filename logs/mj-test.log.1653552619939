@@ -1,0 +1,91 @@
+INFO  10:10:03,504 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  10:10:03,543 - #2 program
+INFO  10:10:03,544 - #46 test302
+INFO  10:10:03,544 - #3 {
+INFO  10:10:03,545 - #13 void
+INFO  10:10:03,545 - #46 main
+INFO  10:10:03,546 - #6 (
+INFO  10:10:03,546 - #7 )
+INFO  10:10:03,547 - #3 {
+INFO  10:10:03,547 - #12 print
+INFO  10:10:03,547 - #6 (
+INFO  10:10:03,547 - #43 1
+INFO  10:10:03,548 - #7 )
+INFO  10:10:03,549 - #5 ;
+INFO  10:10:03,549 - #12 print
+INFO  10:10:03,549 - #6 (
+INFO  10:10:03,549 - #43 2
+INFO  10:10:03,549 - #7 )
+INFO  10:10:03,550 - #5 ;
+INFO  10:10:03,550 - #4 }
+INFO  10:10:03,550 - #4 }
+INFO  10:10:03,554 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoDeclLists(
+  ) [NoDeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          PrintStmt(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintStmt]
+        ) [StatementListDecl]
+        PrintStmt(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 2
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintStmt]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  10:10:03,555 - ===================================
+INFO  10:10:03,557 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+ERROR 10:10:03,557 - Povratni tip metode nije ispravan! - na liniji 7
+ERROR 10:10:03,557 - Program nema main metodu!  - na liniji 3
+INFO  10:10:03,558 -  Deklarisanih promenljivih ima = 0
+INFO  10:10:03,558 -  Globalnih promenljivih ima = 0
+INFO  10:10:03,558 - ===================================
+INFO  10:10:03,558 - Semanticka analiza NIJE uspesno zavrsena!

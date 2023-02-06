@@ -1,0 +1,154 @@
+INFO  19:07:12,401 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  19:07:12,439 - #2 program
+INFO  19:07:12,439 - #46 MJProgram
+INFO  19:07:12,439 - #46 int
+INFO  19:07:12,440 - #46 a
+INFO  19:07:12,440 - #11 ,
+INFO  19:07:12,441 - #46 b
+INFO  19:07:12,441 - #11 ,
+INFO  19:07:12,441 - #46 c
+INFO  19:07:12,441 - #11 ,
+INFO  19:07:12,441 - #46 d
+INFO  19:07:12,441 - #15 [
+INFO  19:07:12,441 - #16 ]
+INFO  19:07:12,441 - #5 ;
+INFO  19:07:12,441 - #14 const
+INFO  19:07:12,442 - #46 int
+INFO  19:07:12,442 - #46 x
+INFO  19:07:12,443 - #30 =
+INFO  19:07:12,443 - #43 1
+INFO  19:07:12,443 - #5 ;
+INFO  19:07:12,444 - #46 int
+INFO  19:07:12,444 - #46 c
+INFO  19:07:12,444 - #5 ;
+INFO  19:07:12,444 - #3 {
+INFO  19:07:12,444 - #46 int
+INFO  19:07:12,445 - #46 main
+INFO  19:07:12,445 - #6 (
+INFO  19:07:12,445 - #7 )
+INFO  19:07:12,446 - #3 {
+INFO  19:07:12,446 - #9 return
+INFO  19:07:12,447 - #43 1
+INFO  19:07:12,447 - #5 ;
+INFO  19:07:12,448 - #4 }
+INFO  19:07:12,448 - #4 }
+INFO  19:07:12,452 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        NoDeclLists(
+        ) [NoDeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarDeclarationList(
+              VarDeclarationList(
+                VarDeclarationList(
+                  SingleVarDeclaration(
+                    VarDeclarationDecl(
+                     a
+                    ) [VarDeclarationDecl]
+                  ) [SingleVarDeclaration]
+                  VarDeclarationDecl(
+                   b
+                  ) [VarDeclarationDecl]
+                ) [VarDeclarationList]
+                VarDeclarationDecl(
+                 c
+                ) [VarDeclarationDecl]
+              ) [VarDeclarationList]
+              ArrayDeclaration(
+               d
+              ) [ArrayDeclaration]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      ConstDeclar(
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          SingleConstDeclaration(
+            NumConst(
+             x
+              AssignopDecl(
+              ) [AssignopDecl]
+             1
+            ) [NumConst]
+          ) [SingleConstDeclaration]
+        ) [ConstDecl]
+      ) [ConstDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           c
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  19:07:12,453 - ===================================
+INFO  19:07:12,455 - Deklarisana promenljiva a na liniji 2
+INFO  19:07:12,455 - Deklarisana promenljiva b na liniji 2
+INFO  19:07:12,455 - Deklarisana promenljiva c na liniji 2
+INFO  19:07:12,455 - Deklarisana nizovska promenljiva d na liniji 2
+INFO  19:07:12,455 - Deklarisana konstanta x na liniji 3
+ERROR 19:07:12,455 - Promenljiva c je vec deklarisana! na liniji 4
+INFO  19:07:12,456 - Obradjuje se funkcija main na liniji 6
+INFO  19:07:12,456 -  Deklarisanih promenljivih ima = 4
+INFO  19:07:12,456 - ===================================

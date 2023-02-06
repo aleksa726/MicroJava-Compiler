@@ -1,0 +1,218 @@
+INFO  22:33:36,338 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  22:33:36,377 - #2 program
+INFO  22:33:36,377 - #46 MJProgram
+INFO  22:33:36,377 - #46 int
+INFO  22:33:36,378 - #46 x
+INFO  22:33:36,378 - #5 ;
+INFO  22:33:36,379 - #17 class
+INFO  22:33:36,379 - #46 Klasa
+INFO  22:33:36,380 - #3 {
+INFO  22:33:36,381 - #46 int
+INFO  22:33:36,381 - #46 fld
+INFO  22:33:36,381 - #11 ,
+INFO  22:33:36,381 - #46 a
+INFO  22:33:36,381 - #5 ;
+INFO  22:33:36,381 - #3 {
+INFO  22:33:36,382 - #13 void
+INFO  22:33:36,388 - #46 method
+INFO  22:33:36,395 - #6 (
+INFO  22:33:36,402 - #7 )
+INFO  22:33:36,408 - #3 {
+INFO  22:33:36,408 - #9 return
+INFO  22:33:36,414 - #5 ;
+INFO  22:33:36,414 - #4 }
+INFO  22:33:36,421 - #4 }
+INFO  22:33:36,421 - #4 }
+INFO  22:33:36,421 - #3 {
+INFO  22:33:36,422 - #46 int
+INFO  22:33:36,422 - #46 met
+INFO  22:33:36,422 - #6 (
+INFO  22:33:36,422 - #46 int
+INFO  22:33:36,422 - #46 a
+INFO  22:33:36,422 - #7 )
+INFO  22:33:36,423 - #3 {
+INFO  22:33:36,423 - #9 return
+INFO  22:33:36,423 - #43 1
+INFO  22:33:36,435 - #5 ;
+INFO  22:33:36,441 - #4 }
+INFO  22:33:36,441 - #46 int
+INFO  22:33:36,441 - #46 main
+INFO  22:33:36,441 - #6 (
+INFO  22:33:36,442 - #7 )
+INFO  22:33:36,442 - #3 {
+INFO  22:33:36,442 - #9 return
+INFO  22:33:36,442 - #43 1
+INFO  22:33:36,442 - #5 ;
+INFO  22:33:36,442 - #4 }
+INFO  22:33:36,442 - #4 }
+INFO  22:33:36,446 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             x
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    ClassDeclar(
+      ClassDecl(
+        ClassName(
+         Klasa
+        ) [ClassName]
+        NoClassExtends(
+        ) [NoClassExtends]
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 fld
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+              VarDeclarationDecl(
+               a
+              ) [VarDeclarationDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [VarList]
+        ClassMethodsDecl(
+          MethodListDecl(
+            NoMethodDecl(
+            ) [NoMethodDecl]
+            MethodDeclaration(
+              MethodTypeName(
+                VoidType(
+                ) [VoidType]
+               method
+              ) [MethodTypeName]
+              NoFormParsAndVarArgs(
+              ) [NoFormParsAndVarArgs]
+              NoVarList(
+              ) [NoVarList]
+              StatementListDecl(
+                NoStatementList(
+                ) [NoStatementList]
+                ReturnVoidStatement(
+                ) [ReturnVoidStatement]
+              ) [StatementListDecl]
+            ) [MethodDeclaration]
+          ) [MethodListDecl]
+        ) [ClassMethodsDecl]
+      ) [ClassDecl]
+    ) [ClassDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  22:33:36,447 - ===================================
+INFO  22:33:36,469 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  22:33:36,469 - Pretraga na liniji 3 (x), nadjeno Var x: int, 0, 0
+INFO  22:33:36,469 - Pretraga na liniji 5 (Klasa), nadjeno Type Klasa: Class [], 0, 0
+INFO  22:33:36,469 - Pretraga na liniji 6 (fld), nadjeno Fld fld: int, 0, 1
+INFO  22:33:36,469 - Pretraga na liniji 6 (a), nadjeno Fld a: int, 1, 1
+INFO  22:33:36,470 - Pretraga na liniji 9 (method), nadjeno Meth method: notype, 0, 0 
+INFO  22:33:36,470 - Pretraga na liniji 17 (met), nadjeno Meth met: int, 0, 0 
+INFO  22:33:36,470 - Pretraga na liniji 17 (a), nadjeno Var a: int, 0, 1
+INFO  22:33:36,470 - Pretraga na liniji 21 (main), nadjeno Meth main: int, 0, 0 
+INFO  22:33:36,470 -  Deklarisanih promenljivih ima = 3
+INFO  22:33:36,470 -  Globalnih promenljivih ima = 3
+INFO  22:33:36,470 - ===================================

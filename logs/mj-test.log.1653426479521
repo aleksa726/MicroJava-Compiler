@@ -1,0 +1,308 @@
+INFO  23:07:53,866 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:07:53,915 - #2 program
+INFO  23:07:53,915 - #46 MJProgram
+INFO  23:07:53,915 - #46 int
+INFO  23:07:53,916 - #46 x
+INFO  23:07:53,917 - #5 ;
+INFO  23:07:53,917 - #17 class
+INFO  23:07:53,918 - #46 Klasa1
+INFO  23:07:53,918 - #3 {
+INFO  23:07:53,918 - #4 }
+INFO  23:07:53,919 - #19 record
+INFO  23:07:53,920 - #46 Rec
+INFO  23:07:53,920 - #3 {
+INFO  23:07:53,920 - #46 int
+INFO  23:07:53,920 - #46 recFld
+INFO  23:07:53,921 - #5 ;
+INFO  23:07:53,921 - #46 char
+INFO  23:07:53,921 - #46 recFldChar
+INFO  23:07:53,921 - #5 ;
+INFO  23:07:53,921 - #46 int
+INFO  23:07:53,921 - #46 arrRec
+INFO  23:07:53,921 - #15 [
+INFO  23:07:53,921 - #16 ]
+INFO  23:07:53,921 - #5 ;
+INFO  23:07:53,922 - #4 }
+INFO  23:07:53,922 - #17 class
+INFO  23:07:53,922 - #46 Klasa
+INFO  23:07:53,922 - #18 extends
+INFO  23:07:53,922 - #46 Rec
+INFO  23:07:53,922 - #3 {
+INFO  23:07:53,923 - #46 int
+INFO  23:07:53,923 - #46 fld
+INFO  23:07:53,923 - #11 ,
+INFO  23:07:53,923 - #46 a
+INFO  23:07:53,923 - #5 ;
+INFO  23:07:53,923 - #3 {
+INFO  23:07:53,923 - #13 void
+INFO  23:07:53,924 - #46 method
+INFO  23:07:53,924 - #6 (
+INFO  23:07:53,925 - #7 )
+INFO  23:07:53,925 - #3 {
+INFO  23:07:53,925 - #9 return
+INFO  23:07:53,926 - #5 ;
+INFO  23:07:53,926 - #4 }
+INFO  23:07:53,926 - #4 }
+INFO  23:07:53,926 - #4 }
+INFO  23:07:53,927 - #3 {
+INFO  23:07:53,927 - #46 int
+INFO  23:07:53,927 - #46 met
+INFO  23:07:53,927 - #6 (
+INFO  23:07:53,927 - #46 int
+INFO  23:07:53,927 - #46 a
+INFO  23:07:53,927 - #7 )
+INFO  23:07:53,927 - #3 {
+INFO  23:07:53,927 - #9 return
+INFO  23:07:53,927 - #43 1
+INFO  23:07:53,928 - #5 ;
+INFO  23:07:53,929 - #4 }
+INFO  23:07:53,929 - #46 int
+INFO  23:07:53,929 - #46 main
+INFO  23:07:53,929 - #6 (
+INFO  23:07:53,929 - #7 )
+INFO  23:07:53,929 - #3 {
+INFO  23:07:53,929 - #9 return
+INFO  23:07:53,929 - #43 1
+INFO  23:07:53,930 - #5 ;
+INFO  23:07:53,930 - #4 }
+INFO  23:07:53,930 - #4 }
+INFO  23:07:53,934 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          NoDeclLists(
+          ) [NoDeclLists]
+          VarDeclar(
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 x
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+            ) [VarDecl]
+          ) [VarDeclar]
+        ) [DeclLists]
+        ClassDeclar(
+          ClassDecl(
+            ClassName(
+             Klasa1
+            ) [ClassName]
+            NoClassExtends(
+            ) [NoClassExtends]
+            NoVarList(
+            ) [NoVarList]
+            NoClassMethods(
+            ) [NoClassMethods]
+          ) [ClassDecl]
+        ) [ClassDeclar]
+      ) [DeclLists]
+      RecordDeclar(
+        RecordDeclaration(
+          RecordName(
+           Rec
+          ) [RecordName]
+          VarList(
+            VarList(
+              VarList(
+                NoVarList(
+                ) [NoVarList]
+                VarDecl(
+                  VarType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarType]
+                  SingleVarDeclaration(
+                    VarDeclarationDecl(
+                     recFld
+                    ) [VarDeclarationDecl]
+                  ) [SingleVarDeclaration]
+                ) [VarDecl]
+              ) [VarList]
+              VarDecl(
+                VarType(
+                  Type(
+                   char
+                  ) [Type]
+                ) [VarType]
+                SingleVarDeclaration(
+                  VarDeclarationDecl(
+                   recFldChar
+                  ) [VarDeclarationDecl]
+                ) [SingleVarDeclaration]
+              ) [VarDecl]
+            ) [VarList]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              SingleVarDeclaration(
+                ArrayDeclaration(
+                 arrRec
+                ) [ArrayDeclaration]
+              ) [SingleVarDeclaration]
+            ) [VarDecl]
+          ) [VarList]
+        ) [RecordDeclaration]
+      ) [RecordDeclar]
+    ) [DeclLists]
+    ClassDeclar(
+      ClassDecl(
+        ClassName(
+         Klasa
+        ) [ClassName]
+        ClassExtends(
+          ClassExtensionType(
+            Type(
+             Rec
+            ) [Type]
+          ) [ClassExtensionType]
+        ) [ClassExtends]
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 fld
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+              VarDeclarationDecl(
+               a
+              ) [VarDeclarationDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [VarList]
+        ClassMethodsDecl(
+          MethodListDecl(
+            NoMethodDecl(
+            ) [NoMethodDecl]
+            MethodDeclaration(
+              MethodTypeName(
+                VoidType(
+                ) [VoidType]
+               method
+              ) [MethodTypeName]
+              NoFormParsAndVarArgs(
+              ) [NoFormParsAndVarArgs]
+              NoVarList(
+              ) [NoVarList]
+              StatementListDecl(
+                NoStatementList(
+                ) [NoStatementList]
+                ReturnVoidStatement(
+                ) [ReturnVoidStatement]
+              ) [StatementListDecl]
+            ) [MethodDeclaration]
+          ) [MethodListDecl]
+        ) [ClassMethodsDecl]
+      ) [ClassDecl]
+    ) [ClassDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:07:53,935 - ===================================
+INFO  23:07:53,944 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  23:07:53,944 - Pretraga na liniji 3 (x), nadjeno Var x: int, 0, 0
+INFO  23:07:53,944 - Pretraga na liniji 5 (Klasa1), nadjeno Type Klasa1: Class [], 0, 0
+INFO  23:07:53,944 - Pretraga na liniji 5 (Klasa1), nadjeno Type Klasa1: Class [], 0, 0
+INFO  23:07:53,945 - Pretraga na liniji 9 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  23:07:53,945 - Pretraga na liniji 10 (recFld), nadjeno Fld recFld: int, 0, 1
+INFO  23:07:53,945 - Pretraga na liniji 11 (recFldChar), nadjeno Fld recFldChar: char, 1, 1
+INFO  23:07:53,945 - Pretraga na liniji 12 (arrRec), nadjeno Var arrRec: Arr of int, 2, 1

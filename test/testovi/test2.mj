@@ -1,0 +1,72 @@
+program test1
+
+int a;
+char c;
+
+const int con = 5;
+const int jedan = 1;
+
+{
+
+	int met(){
+		return con + jedan - 2;
+	}
+	
+	int met2(int a, int b) int c;{
+		c = a * b;
+		return c;
+	}
+	
+	int met3(int... args){
+		return args[0] + args[1];
+	}
+	
+	int met4(int x, int... args) int a; int b;{
+		a = x * args[0];
+		b = a * a;
+		print(b);
+		return (a+b+args[0]-args[1]);
+	}
+	
+	void main()
+	int niz[];
+	{
+		niz = new int[3];
+		
+		niz[0] = 1;
+		niz[1] = 2;
+		niz[2] = 3;
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(eol);
+		
+		niz[0] = 1 + 2 * 3 - 5;
+		niz[jedan] = 20;
+		niz[10/5] = 25;
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(eol);
+		
+		niz[0] = met();
+		niz[1] = met2(3,4);
+		niz[2] = met3(50,25);
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(eol);
+		
+		niz[(0*99/33+2-1*2)] = 98;		
+		niz[met2(1,1)] = 99;
+		niz[2] = niz[1] + 1;
+		print(niz[0]);
+		print(niz[1]);
+		print(niz[2]);
+		print(eol);
+		
+		niz[0] = met4(3,2,1,0);
+		print(niz[0]);
+		print(eol);
+	}
+}

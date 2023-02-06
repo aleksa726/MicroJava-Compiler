@@ -1,0 +1,157 @@
+INFO  02:06:25,860 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  02:06:25,897 - #2 program
+INFO  02:06:25,897 - #46 MJProgram
+INFO  02:06:25,897 - #14 const
+INFO  02:06:25,898 - #46 int
+INFO  02:06:25,898 - #46 x
+INFO  02:06:25,899 - #30 =
+INFO  02:06:25,899 - #43 1
+INFO  02:06:25,900 - #5 ;
+INFO  02:06:25,900 - #3 {
+INFO  02:06:25,900 - #46 int
+INFO  02:06:25,901 - #46 meth
+INFO  02:06:25,901 - #6 (
+INFO  02:06:25,901 - #46 int
+INFO  02:06:25,901 - #46 a
+INFO  02:06:25,902 - #11 ,
+INFO  02:06:25,902 - #46 int
+INFO  02:06:25,902 - #53 ...
+INFO  02:06:25,902 - #46 a
+INFO  02:06:25,902 - #7 )
+INFO  02:06:25,902 - #3 {
+INFO  02:06:25,903 - #9 return
+INFO  02:06:25,903 - #43 1
+INFO  02:06:25,904 - #5 ;
+INFO  02:06:25,905 - #4 }
+INFO  02:06:25,905 - #46 int
+INFO  02:06:25,905 - #46 main
+INFO  02:06:25,905 - #6 (
+INFO  02:06:25,905 - #7 )
+INFO  02:06:25,906 - #3 {
+INFO  02:06:25,906 - #9 return
+INFO  02:06:25,906 - #43 1
+INFO  02:06:25,906 - #5 ;
+INFO  02:06:25,906 - #4 }
+INFO  02:06:25,906 - #4 }
+INFO  02:06:25,910 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         meth
+        ) [MethodTypeName]
+        FormParsAndVarArgsDecl(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+          VarArgsDecl(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [VarArgsDecl]
+        ) [FormParsAndVarArgsDecl]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  02:06:25,910 - ===================================
+INFO  02:06:25,913 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  02:06:25,913 - Pretraga na liniji 3 (x), nadjeno Con x: int, 0, 0
+INFO  02:06:25,913 - Pretraga na liniji 9 (meth), nadjeno Meth meth: int, 0, 0 
+INFO  02:06:25,913 - Pretraga na liniji 9 (a), nadjeno Var a: int, 0, 1
+ERROR 02:06:25,913 - Ime a je zauzeto! - na liniji 9
+INFO  02:06:25,914 - Pretraga na liniji 14 (main), nadjeno Meth main: int, 0, 0 
+INFO  02:06:25,914 -  Deklarisanih promenljivih ima = 0
+INFO  02:06:25,914 -  Globalnih promenljivih ima = 0
+INFO  02:06:25,914 - ===================================

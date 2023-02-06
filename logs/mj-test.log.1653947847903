@@ -1,0 +1,93 @@
+INFO  23:57:10,604 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:57:10,640 - #2 program
+INFO  23:57:10,640 - #46 test302
+INFO  23:57:10,641 - #46 Record
+INFO  23:57:10,641 - #46 Rec
+INFO  23:57:10,642 - #3 {
+ERROR 23:57:10,642 - 
+Sintaksna greska na liniji 5
+INFO  23:57:10,642 - #46 int
+INFO  23:57:10,642 - #46 x
+INFO  23:57:10,642 - #5 ;
+INFO  23:57:10,643 - #4 }
+INFO  23:57:10,643 - #46 int
+INFO  23:57:10,643 - #46 niz
+INFO  23:57:10,643 - #15 [
+INFO  23:57:10,643 - #16 ]
+INFO  23:57:10,643 - #5 ;
+INFO  23:57:10,643 - #46 int
+INFO  23:57:10,644 - #46 a
+INFO  23:57:10,644 - #5 ;
+ERROR 23:57:10,644 - Izvrsen oporavak od greske prilikom deklarisanja promenljive u liniji 5
+INFO  23:57:10,645 - #3 {
+INFO  23:57:10,645 - #13 void
+INFO  23:57:10,645 - #46 main
+INFO  23:57:10,646 - #6 (
+INFO  23:57:10,646 - #7 )
+INFO  23:57:10,647 - #3 {
+INFO  23:57:10,647 - #4 }
+INFO  23:57:10,648 - #4 }
+INFO  23:57:10,652 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             Record
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ErrorVar(
+            ) [ErrorVar]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:57:10,652 - ===================================
+INFO  23:57:10,655 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+ERROR 23:57:10,655 - Trazeni tip Record nije pronadjen u tabeli simbola! - na liniji 5
+INFO  23:57:10,655 - Pretraga na liniji 9 (a), nadjeno Var a: int, 0, 0
+INFO  23:57:10,655 - Pretraga na liniji 15 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:57:10,655 -  Deklarisanih promenljivih ima = 1
+INFO  23:57:10,655 -  Globalnih promenljivih ima = 1
+INFO  23:57:10,655 - ===================================
+INFO  23:57:10,655 - Semanticka analiza NIJE uspesno zavrsena!

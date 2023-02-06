@@ -1,0 +1,113 @@
+INFO  10:11:27,097 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  10:11:27,135 - #2 program
+INFO  10:11:27,135 - #46 test302
+INFO  10:11:27,135 - #3 {
+INFO  10:11:27,136 - #46 int
+INFO  10:11:27,136 - #46 main
+INFO  10:11:27,137 - #6 (
+INFO  10:11:27,137 - #7 )
+INFO  10:11:27,138 - #3 {
+INFO  10:11:27,138 - #12 print
+INFO  10:11:27,139 - #6 (
+INFO  10:11:27,139 - #43 1
+INFO  10:11:27,140 - #7 )
+INFO  10:11:27,141 - #5 ;
+INFO  10:11:27,141 - #12 print
+INFO  10:11:27,141 - #6 (
+INFO  10:11:27,141 - #43 2
+INFO  10:11:27,141 - #7 )
+INFO  10:11:27,141 - #5 ;
+INFO  10:11:27,141 - #9 return
+INFO  10:11:27,141 - #43 1
+INFO  10:11:27,141 - #5 ;
+INFO  10:11:27,142 - #4 }
+INFO  10:11:27,142 - #4 }
+INFO  10:11:27,147 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  NoDeclLists(
+  ) [NoDeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          StatementListDecl(
+            NoStatementList(
+            ) [NoStatementList]
+            PrintStmt(
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    NumberFactor(
+                     1
+                    ) [NumberFactor]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [PrintStmt]
+          ) [StatementListDecl]
+          PrintStmt(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   2
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [PrintStmt]
+        ) [StatementListDecl]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  10:11:27,147 - ===================================
+INFO  10:11:27,150 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  10:11:27,151 - Pretraga na liniji 7 (main), nadjeno Meth main: int, 0, 0 
+INFO  10:11:27,151 -  Deklarisanih promenljivih ima = 0
+INFO  10:11:27,151 -  Globalnih promenljivih ima = 0
+INFO  10:11:27,151 - ===================================
+INFO  10:11:27,151 - Semanticka analiza je uspesno zavrsena!

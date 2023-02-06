@@ -1,0 +1,425 @@
+INFO  23:09:39,379 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:09:39,415 - #2 program
+INFO  23:09:39,416 - #46 test302
+INFO  23:09:39,416 - #46 bool
+INFO  23:09:39,416 - #46 flag
+INFO  23:09:39,417 - #5 ;
+INFO  23:09:39,417 - #14 const
+INFO  23:09:39,418 - #46 int
+INFO  23:09:39,418 - #46 c
+INFO  23:09:39,419 - #30 =
+INFO  23:09:39,419 - #43 1
+INFO  23:09:39,419 - #5 ;
+INFO  23:09:39,420 - #14 const
+INFO  23:09:39,420 - #46 int
+INFO  23:09:39,420 - #46 c2
+INFO  23:09:39,420 - #30 =
+INFO  23:09:39,420 - #43 2
+INFO  23:09:39,420 - #5 ;
+INFO  23:09:39,421 - #14 const
+INFO  23:09:39,421 - #46 char
+INFO  23:09:39,421 - #46 c3
+INFO  23:09:39,421 - #30 =
+INFO  23:09:39,421 - #44 a
+INFO  23:09:39,421 - #5 ;
+INFO  23:09:39,421 - #14 const
+INFO  23:09:39,421 - #46 bool
+INFO  23:09:39,421 - #46 c4
+INFO  23:09:39,422 - #30 =
+INFO  23:09:39,422 - #45 true
+INFO  23:09:39,422 - #5 ;
+INFO  23:09:39,422 - #46 int
+INFO  23:09:39,422 - #46 a
+INFO  23:09:39,422 - #5 ;
+INFO  23:09:39,422 - #19 record
+INFO  23:09:39,422 - #46 Rec
+INFO  23:09:39,422 - #3 {
+INFO  23:09:39,423 - #46 int
+INFO  23:09:39,423 - #46 x
+INFO  23:09:39,423 - #5 ;
+INFO  23:09:39,423 - #46 int
+INFO  23:09:39,423 - #46 y
+INFO  23:09:39,423 - #5 ;
+INFO  23:09:39,423 - #4 }
+INFO  23:09:39,423 - #46 Rec
+INFO  23:09:39,424 - #46 rec
+INFO  23:09:39,424 - #5 ;
+INFO  23:09:39,424 - #3 {
+INFO  23:09:39,424 - #13 void
+INFO  23:09:39,424 - #46 main
+INFO  23:09:39,425 - #6 (
+INFO  23:09:39,425 - #7 )
+INFO  23:09:39,426 - #46 int
+INFO  23:09:39,426 - #46 niz
+INFO  23:09:39,426 - #15 [
+INFO  23:09:39,426 - #16 ]
+INFO  23:09:39,426 - #5 ;
+INFO  23:09:39,426 - #3 {
+INFO  23:09:39,426 - #46 rec
+INFO  23:09:39,426 - #30 =
+INFO  23:09:39,427 - #40 new
+INFO  23:09:39,427 - #46 Rec
+INFO  23:09:39,427 - #5 ;
+INFO  23:09:39,428 - #46 rec
+INFO  23:09:39,428 - #42 .
+INFO  23:09:39,428 - #46 y
+INFO  23:09:39,428 - #30 =
+INFO  23:09:39,429 - #43 10
+INFO  23:09:39,429 - #5 ;
+INFO  23:09:39,429 - #46 rec
+INFO  23:09:39,429 - #42 .
+INFO  23:09:39,429 - #46 x
+INFO  23:09:39,429 - #30 =
+INFO  23:09:39,429 - #43 2
+INFO  23:09:39,429 - #5 ;
+INFO  23:09:39,429 - #12 print
+INFO  23:09:39,429 - #6 (
+INFO  23:09:39,429 - #46 rec
+INFO  23:09:39,429 - #42 .
+INFO  23:09:39,429 - #46 y
+INFO  23:09:39,429 - #11 ,
+INFO  23:09:39,429 - #46 rec
+ERROR 23:09:39,429 - 
+Sintaksna greska na liniji 32
+INFO  23:09:39,430 - #42 .
+INFO  23:09:39,430 - #46 x
+INFO  23:09:39,430 - #7 )
+ERROR 23:09:39,430 - Izvrsen oporavak od greske logickog izraza unutar if iskaza u liniji 1
+ERROR 23:09:39,430 - 
+Sintaksna greska na liniji 32
+INFO  23:09:39,431 - #5 ;
+INFO  23:09:39,431 - #4 }
+INFO  23:09:39,431 - #4 }
+ERROR 23:09:39,431 - Izvrsen oporavak od greske prilikom deklarisanja dodele vrednosti u liniji 32
+INFO  23:09:39,436 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          DeclLists(
+            DeclLists(
+              DeclLists(
+                DeclLists(
+                  NoDeclLists(
+                  ) [NoDeclLists]
+                  VarDeclar(
+                    VarDecl(
+                      VarType(
+                        Type(
+                         bool
+                        ) [Type]
+                      ) [VarType]
+                      SingleVarDeclaration(
+                        VarDeclarationDecl(
+                         flag
+                        ) [VarDeclarationDecl]
+                      ) [SingleVarDeclaration]
+                    ) [VarDecl]
+                  ) [VarDeclar]
+                ) [DeclLists]
+                ConstDeclar(
+                  ConstDecl(
+                    ConstType(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [ConstType]
+                    SingleConstDeclaration(
+                      NumConst(
+                       c
+                        AssignopDecl(
+                        ) [AssignopDecl]
+                       1
+                      ) [NumConst]
+                    ) [SingleConstDeclaration]
+                  ) [ConstDecl]
+                ) [ConstDeclar]
+              ) [DeclLists]
+              ConstDeclar(
+                ConstDecl(
+                  ConstType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [ConstType]
+                  SingleConstDeclaration(
+                    NumConst(
+                     c2
+                      AssignopDecl(
+                      ) [AssignopDecl]
+                     2
+                    ) [NumConst]
+                  ) [SingleConstDeclaration]
+                ) [ConstDecl]
+              ) [ConstDeclar]
+            ) [DeclLists]
+            ConstDeclar(
+              ConstDecl(
+                ConstType(
+                  Type(
+                   char
+                  ) [Type]
+                ) [ConstType]
+                SingleConstDeclaration(
+                  CharConst(
+                   c3
+                    AssignopDecl(
+                    ) [AssignopDecl]
+                   a
+                  ) [CharConst]
+                ) [SingleConstDeclaration]
+              ) [ConstDecl]
+            ) [ConstDeclar]
+          ) [DeclLists]
+          ConstDeclar(
+            ConstDecl(
+              ConstType(
+                Type(
+                 bool
+                ) [Type]
+              ) [ConstType]
+              SingleConstDeclaration(
+                BoolConst(
+                 c4
+                  AssignopDecl(
+                  ) [AssignopDecl]
+                 true
+                ) [BoolConst]
+              ) [SingleConstDeclaration]
+            ) [ConstDecl]
+          ) [ConstDeclar]
+        ) [DeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               a
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      RecordDeclar(
+        RecordDeclaration(
+          RecordName(
+           Rec
+          ) [RecordName]
+          VarList(
+            VarList(
+              NoVarList(
+              ) [NoVarList]
+              VarDecl(
+                VarType(
+                  Type(
+                   int
+                  ) [Type]
+                ) [VarType]
+                SingleVarDeclaration(
+                  VarDeclarationDecl(
+                   x
+                  ) [VarDeclarationDecl]
+                ) [SingleVarDeclaration]
+              ) [VarDecl]
+            ) [VarList]
+            VarDecl(
+              VarType(
+                Type(
+                 int
+                ) [Type]
+              ) [VarType]
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 y
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+            ) [VarDecl]
+          ) [VarList]
+        ) [RecordDeclaration]
+      ) [RecordDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           Rec
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           rec
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      VarList(
+        NoVarList(
+        ) [NoVarList]
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarList]
+      StatementListDecl(
+        StatementListDecl(
+          StatementListDecl(
+            StatementListDecl(
+              NoStatementList(
+              ) [NoStatementList]
+              StatementDesignatorStatement(
+                DesignatorStatementAssign(
+                  AssignDesignatorDecl(
+                    OnlyIdent(
+                      DesignatorName(
+                       rec
+                      ) [DesignatorName]
+                    ) [OnlyIdent]
+                    AssignopDecl(
+                    ) [AssignopDecl]
+                    MinusExprDeclaration(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleTermDeclaration(
+                        SingleFactorDecl(
+                          NewExpr(
+                            Type(
+                             Rec
+                            ) [Type]
+                          ) [NewExpr]
+                        ) [SingleFactorDecl]
+                      ) [SingleTermDeclaration]
+                      NoExpr(
+                      ) [NoExpr]
+                    ) [MinusExprDeclaration]
+                  ) [AssignDesignatorDecl]
+                ) [DesignatorStatementAssign]
+              ) [StatementDesignatorStatement]
+            ) [StatementListDecl]
+            StatementDesignatorStatement(
+              DesignatorStatementAssign(
+                AssignDesignatorDecl(
+                  FieldDesignator(
+                    DesignatorName(
+                     rec
+                    ) [DesignatorName]
+                   y
+                  ) [FieldDesignator]
+                  AssignopDecl(
+                  ) [AssignopDecl]
+                  MinusExprDeclaration(
+                    NoMinus(
+                    ) [NoMinus]
+                    SingleTermDeclaration(
+                      SingleFactorDecl(
+                        NumberFactor(
+                         10
+                        ) [NumberFactor]
+                      ) [SingleFactorDecl]
+                    ) [SingleTermDeclaration]
+                    NoExpr(
+                    ) [NoExpr]
+                  ) [MinusExprDeclaration]
+                ) [AssignDesignatorDecl]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignatorStatement]
+          ) [StatementListDecl]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                FieldDesignator(
+                  DesignatorName(
+                   rec
+                  ) [DesignatorName]
+                 x
+                ) [FieldDesignator]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       2
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        IfElseStatement(
+          IfStatementDecl(
+            ErrorIfCondition(
+            ) [ErrorIfCondition]
+            StatementDesignatorStatement(
+              DesignatorStatementAssign(
+                AssignError(
+                ) [AssignError]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignatorStatement]
+          ) [IfStatementDecl]
+        ) [IfElseStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:09:39,436 - ===================================
+INFO  23:09:39,439 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:09:39,439 - Pretraga na liniji 5 (flag), nadjeno Var flag: , 0, 0
+INFO  23:09:39,439 - Pretraga na liniji 7 (c), nadjeno Con c: int, 1, 0
+INFO  23:09:39,439 - Pretraga na liniji 8 (c2), nadjeno Con c2: int, 2, 0
+INFO  23:09:39,440 - Pretraga na liniji 9 (c3), nadjeno Con c3: char, 97, 0
+INFO  23:09:39,440 - Pretraga na liniji 10 (c4), nadjeno Con c4: , 1, 0
+INFO  23:09:39,440 - Pretraga na liniji 12 (a), nadjeno Var a: int, 1, 0
+INFO  23:09:39,440 - Pretraga na liniji 14 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  23:09:39,440 - Pretraga na liniji 15 (x), nadjeno Fld x: int, 0, 1
+INFO  23:09:39,440 - Pretraga na liniji 16 (y), nadjeno Fld y: int, 1, 1
+INFO  23:09:39,440 - Pretraga na liniji 14 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld x: int, 0, 1 
+Fld y: int, 1, 1 
+INFO  23:09:39,440 - Pretraga na liniji 19 (rec), nadjeno Var rec: Class [], 2, 0
+INFO  23:09:39,440 - Pretraga na liniji 25 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:09:39,440 - Pretraga na liniji 26 (niz), nadjeno Var niz: Arr of int, 0, 1
+INFO  23:09:39,441 -  Deklarisanih promenljivih ima = 6
+INFO  23:09:39,441 -  Globalnih promenljivih ima = 5
+INFO  23:09:39,441 - ===================================
+INFO  23:09:39,441 - Semanticka analiza je uspesno zavrsena!
+INFO  23:09:39,444 - designatorExpr
+INFO  23:09:39,444 - EXPR
+INFO  23:09:39,444 - Assign designator
+INFO  23:09:39,444 - designatorExpr
+INFO  23:09:39,445 - EXPR
+INFO  23:09:39,445 - Assign designator
+INFO  23:09:39,445 - designatorExpr
+INFO  23:09:39,445 - EXPR
+INFO  23:09:39,445 - Assign designator

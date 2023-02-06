@@ -1,0 +1,146 @@
+INFO  22:33:55,171 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  22:33:55,207 - #2 program
+INFO  22:33:55,207 - #46 MJProgram
+INFO  22:33:55,208 - #14 const
+INFO  22:33:55,208 - #46 int
+INFO  22:33:55,208 - #46 x
+INFO  22:33:55,209 - #30 =
+INFO  22:33:55,209 - #43 1
+INFO  22:33:55,210 - #5 ;
+INFO  22:33:55,210 - #46 int
+INFO  22:33:55,211 - #46 a
+INFO  22:33:55,211 - #11 ,
+INFO  22:33:55,211 - #46 b
+INFO  22:33:55,212 - #11 ,
+INFO  22:33:55,212 - #46 c
+INFO  22:33:55,212 - #5 ;
+INFO  22:33:55,212 - #46 char
+INFO  22:33:55,212 - #46 niz
+INFO  22:33:55,212 - #15 [
+INFO  22:33:55,212 - #16 ]
+INFO  22:33:55,213 - #5 ;
+INFO  22:33:55,213 - #3 {
+INFO  22:33:55,213 - #46 int
+INFO  22:33:55,213 - #46 main
+INFO  22:33:55,213 - #6 (
+INFO  22:33:55,214 - #7 )
+INFO  22:33:55,214 - #3 {
+INFO  22:33:55,215 - #9 return
+INFO  22:33:55,215 - #43 1
+INFO  22:33:55,216 - #5 ;
+INFO  22:33:55,216 - #4 }
+INFO  22:33:55,216 - #4 }
+INFO  22:33:55,221 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        NoDeclLists(
+        ) [NoDeclLists]
+        ConstDeclar(
+          ConstDecl(
+            ConstType(
+              Type(
+               int
+              ) [Type]
+            ) [ConstType]
+            SingleConstDeclaration(
+              NumConst(
+               x
+                AssignopDecl(
+                ) [AssignopDecl]
+               1
+              ) [NumConst]
+            ) [SingleConstDeclaration]
+          ) [ConstDecl]
+        ) [ConstDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          VarDeclarationList(
+            VarDeclarationList(
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 a
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+              VarDeclarationDecl(
+               b
+              ) [VarDeclarationDecl]
+            ) [VarDeclarationList]
+            VarDeclarationDecl(
+             c
+            ) [VarDeclarationDecl]
+          ) [VarDeclarationList]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           char
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          ArrayDeclaration(
+           niz
+          ) [ArrayDeclaration]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  22:33:55,221 - ===================================
+INFO  22:33:55,224 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  22:33:55,224 - Pretraga na liniji 3 (x), nadjeno Con x: int, 0, 0
+INFO  22:33:55,224 - Pretraga na liniji 4 (a), nadjeno Var a: int, 0, 0
+INFO  22:33:55,224 - Pretraga na liniji 4 (b), nadjeno Var b: int, 1, 0
+INFO  22:33:55,224 - Pretraga na liniji 4 (c), nadjeno Var c: int, 2, 0
+INFO  22:33:55,224 - Pretraga na liniji 5 (niz), nadjeno Var niz: Arr of char, 3, 0
+INFO  22:33:55,224 -  Deklarisanih promenljivih ima = 4
+INFO  22:33:55,225 - ===================================

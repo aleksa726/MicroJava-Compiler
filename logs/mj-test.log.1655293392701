@@ -1,0 +1,195 @@
+INFO  13:37:34,799 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  13:37:34,836 - #2 program
+INFO  13:37:34,836 - #46 test302
+INFO  13:37:34,836 - #46 bool
+INFO  13:37:34,837 - #46 flag
+INFO  13:37:34,838 - #5 ;
+INFO  13:37:34,838 - #46 int
+INFO  13:37:34,839 - #46 a
+INFO  13:37:34,839 - #5 ;
+INFO  13:37:34,839 - #3 {
+INFO  13:37:34,839 - #13 void
+INFO  13:37:34,839 - #46 meth
+INFO  13:37:34,840 - #6 (
+INFO  13:37:34,840 - #46 int
+INFO  13:37:34,841 - #46 x
+INFO  13:37:34,841 - #7 )
+INFO  13:37:34,841 - #3 {
+INFO  13:37:34,841 - #4 }
+INFO  13:37:34,842 - #13 void
+INFO  13:37:34,842 - #46 main
+INFO  13:37:34,842 - #6 (
+INFO  13:37:34,842 - #7 )
+INFO  13:37:34,843 - #3 {
+INFO  13:37:34,843 - #46 a
+INFO  13:37:34,843 - #30 =
+INFO  13:37:34,844 - #43 1
+INFO  13:37:34,845 - #5 ;
+INFO  13:37:34,846 - #46 meth
+INFO  13:37:34,846 - #6 (
+INFO  13:37:34,846 - #46 a
+INFO  13:37:34,846 - #7 )
+INFO  13:37:34,847 - #5 ;
+INFO  13:37:34,847 - #4 }
+INFO  13:37:34,847 - #4 }
+INFO  13:37:34,851 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             bool
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             flag
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          VoidType(
+          ) [VoidType]
+         meth
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             x
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                OnlyIdent(
+                  DesignatorName(
+                   a
+                  ) [DesignatorName]
+                ) [OnlyIdent]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       1
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        StatementDesignatorStatement(
+          DesignatorStatementPars(
+            MethodCallDesignator(
+              OnlyIdent(
+                DesignatorName(
+                 meth
+                ) [DesignatorName]
+              ) [OnlyIdent]
+            ) [MethodCallDesignator]
+            ActParsListDeclaration(
+              ActualParam(
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      Var(
+                        OnlyIdent(
+                          DesignatorName(
+                           a
+                          ) [DesignatorName]
+                        ) [OnlyIdent]
+                      ) [Var]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [ActualParam]
+            ) [ActParsListDeclaration]
+          ) [DesignatorStatementPars]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  13:37:34,852 - ===================================
+INFO  13:37:34,855 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  13:37:34,855 - Pretraga na liniji 5 (flag), nadjeno Var flag: , 0, 0
+INFO  13:37:34,856 - Pretraga na liniji 9 (a), nadjeno Var a: int, 1, 0
+INFO  13:37:34,856 - Pretraga na liniji 14 (meth), nadjeno Meth meth: notype, 0, 0 
+INFO  13:37:34,856 - Pretraga na liniji 14 (x), nadjeno Var x: int, 0, 1
+INFO  13:37:34,856 - Pretraga na liniji 18 (main), nadjeno Meth main: notype, 0, 0 
+INFO  13:37:34,856 - Pretraga na liniji 22 (meth), nadjeno Meth meth: notype, 0, 1 
+   Var x: int, 0, 1 
+INFO  13:37:34,856 -  Deklarisanih promenljivih ima = 2
+INFO  13:37:34,856 -  Globalnih promenljivih ima = 2
+INFO  13:37:34,856 - ===================================
+INFO  13:37:34,857 - Semanticka analiza je uspesno zavrsena!
+INFO  13:37:34,860 - designatorExpr
+INFO  13:37:34,860 - EXPR
+INFO  13:37:34,860 - Assign designator
+INFO  13:37:34,860 - designatorExpr
+INFO  13:37:34,860 - designatorExpr
+INFO  13:37:34,860 - Var
+INFO  13:37:34,860 - EXPR

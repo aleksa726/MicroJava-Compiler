@@ -1,0 +1,43 @@
+INFO  23:13:54,707 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:13:54,743 - #2 program
+INFO  23:13:54,743 - #46 MJProgram
+INFO  23:13:54,743 - #3 {
+INFO  23:13:54,744 - #46 int
+INFO  23:13:54,745 - #46 main
+INFO  23:13:54,745 - #6 (
+INFO  23:13:54,745 - #7 )
+INFO  23:13:54,746 - #3 {
+INFO  23:13:54,746 - #4 }
+INFO  23:13:54,747 - #4 }
+INFO  23:13:54,751 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoDeclLists(
+  ) [NoDeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:13:54,751 - ===================================
+INFO  23:13:54,753 - Obradjuje se funkcija main na liniji 4
+ERROR 23:13:54,753 - Semanticka greska na liniji 4: funkcija main nema return iskaz!
+INFO  23:13:54,753 -  Deklarisanih promenljivih ima = 0
+INFO  23:13:54,753 - ===================================

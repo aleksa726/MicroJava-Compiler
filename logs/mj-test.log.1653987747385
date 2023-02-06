@@ -1,0 +1,311 @@
+INFO  11:00:41,898 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  11:00:41,935 - #2 program
+INFO  11:00:41,935 - #46 test302
+INFO  11:00:41,935 - #19 record
+INFO  11:00:41,936 - #46 Rec
+INFO  11:00:41,936 - #3 {
+INFO  11:00:41,936 - #46 int
+INFO  11:00:41,936 - #46 a
+INFO  11:00:41,937 - #5 ;
+INFO  11:00:41,937 - #46 int
+INFO  11:00:41,938 - #46 x
+INFO  11:00:41,938 - #5 ;
+INFO  11:00:41,938 - #46 char
+INFO  11:00:41,938 - #46 cc
+INFO  11:00:41,938 - #5 ;
+INFO  11:00:41,938 - #4 }
+INFO  11:00:41,938 - #19 record
+INFO  11:00:41,939 - #46 RecTreci
+INFO  11:00:41,939 - #3 {
+INFO  11:00:41,939 - #46 char
+INFO  11:00:41,939 - #46 x
+INFO  11:00:41,939 - #5 ;
+INFO  11:00:41,939 - #4 }
+INFO  11:00:41,939 - #46 int
+INFO  11:00:41,939 - #46 niz
+INFO  11:00:41,940 - #15 [
+INFO  11:00:41,940 - #16 ]
+INFO  11:00:41,940 - #5 ;
+INFO  11:00:41,940 - #46 int
+INFO  11:00:41,940 - #46 a
+INFO  11:00:41,940 - #5 ;
+INFO  11:00:41,940 - #46 Rec
+INFO  11:00:41,940 - #46 r
+INFO  11:00:41,940 - #5 ;
+INFO  11:00:41,940 - #3 {
+INFO  11:00:41,940 - #13 void
+INFO  11:00:41,941 - #46 main
+INFO  11:00:41,941 - #6 (
+INFO  11:00:41,942 - #7 )
+INFO  11:00:41,942 - #3 {
+INFO  11:00:41,942 - #46 niz
+INFO  11:00:41,943 - #30 =
+INFO  11:00:41,943 - #40 new
+INFO  11:00:41,944 - #46 int
+INFO  11:00:41,944 - #15 [
+INFO  11:00:41,945 - #43 3
+INFO  11:00:41,945 - #16 ]
+INFO  11:00:41,945 - #5 ;
+INFO  11:00:41,946 - #12 print
+INFO  11:00:41,946 - #6 (
+INFO  11:00:41,946 - #46 niz
+INFO  11:00:41,946 - #15 [
+INFO  11:00:41,946 - #43 0
+INFO  11:00:41,946 - #16 ]
+INFO  11:00:41,946 - #7 )
+INFO  11:00:41,946 - #5 ;
+INFO  11:00:41,947 - #4 }
+INFO  11:00:41,947 - #4 }
+INFO  11:00:41,952 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          DeclLists(
+            NoDeclLists(
+            ) [NoDeclLists]
+            RecordDeclar(
+              RecordDeclaration(
+                RecordName(
+                 Rec
+                ) [RecordName]
+                VarList(
+                  VarList(
+                    VarList(
+                      NoVarList(
+                      ) [NoVarList]
+                      VarDecl(
+                        VarType(
+                          Type(
+                           int
+                          ) [Type]
+                        ) [VarType]
+                        SingleVarDeclaration(
+                          VarDeclarationDecl(
+                           a
+                          ) [VarDeclarationDecl]
+                        ) [SingleVarDeclaration]
+                      ) [VarDecl]
+                    ) [VarList]
+                    VarDecl(
+                      VarType(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [VarType]
+                      SingleVarDeclaration(
+                        VarDeclarationDecl(
+                         x
+                        ) [VarDeclarationDecl]
+                      ) [SingleVarDeclaration]
+                    ) [VarDecl]
+                  ) [VarList]
+                  VarDecl(
+                    VarType(
+                      Type(
+                       char
+                      ) [Type]
+                    ) [VarType]
+                    SingleVarDeclaration(
+                      VarDeclarationDecl(
+                       cc
+                      ) [VarDeclarationDecl]
+                    ) [SingleVarDeclaration]
+                  ) [VarDecl]
+                ) [VarList]
+              ) [RecordDeclaration]
+            ) [RecordDeclar]
+          ) [DeclLists]
+          RecordDeclar(
+            RecordDeclaration(
+              RecordName(
+               RecTreci
+              ) [RecordName]
+              VarList(
+                NoVarList(
+                ) [NoVarList]
+                VarDecl(
+                  VarType(
+                    Type(
+                     char
+                    ) [Type]
+                  ) [VarType]
+                  SingleVarDeclaration(
+                    VarDeclarationDecl(
+                     x
+                    ) [VarDeclarationDecl]
+                  ) [SingleVarDeclaration]
+                ) [VarDecl]
+              ) [VarList]
+            ) [RecordDeclaration]
+          ) [RecordDeclar]
+        ) [DeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              ArrayDeclaration(
+               niz
+              ) [ArrayDeclaration]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           Rec
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           r
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                OnlyIdent(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                ) [OnlyIdent]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NewArrayExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        MinusExprDeclaration(
+                          NoMinus(
+                          ) [NoMinus]
+                          SingleTermDeclaration(
+                            SingleFactorDecl(
+                              NumberFactor(
+                               3
+                              ) [NumberFactor]
+                            ) [SingleFactorDecl]
+                          ) [SingleTermDeclaration]
+                          NoExpr(
+                          ) [NoExpr]
+                        ) [MinusExprDeclaration]
+                      ) [NewArrayExpr]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        PrintStmt(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                Var(
+                  ArrayDesignator(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    MinusExprDeclaration(
+                      NoMinus(
+                      ) [NoMinus]
+                      SingleTermDeclaration(
+                        SingleFactorDecl(
+                          NumberFactor(
+                           0
+                          ) [NumberFactor]
+                        ) [SingleFactorDecl]
+                      ) [SingleTermDeclaration]
+                      NoExpr(
+                      ) [NoExpr]
+                    ) [MinusExprDeclaration]
+                  ) [ArrayDesignator]
+                ) [Var]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+          NoNumConstOpt(
+          ) [NoNumConstOpt]
+        ) [PrintStmt]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  11:00:41,952 - ===================================
+INFO  11:00:41,955 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  11:00:41,955 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  11:00:41,955 - Pretraga na liniji 6 (a), nadjeno Fld a: int, 0, 1
+INFO  11:00:41,955 - Pretraga na liniji 7 (x), nadjeno Fld x: int, 1, 1
+INFO  11:00:41,955 - Pretraga na liniji 8 (cc), nadjeno Fld cc: char, 2, 1
+INFO  11:00:41,955 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld a: int, 0, 1 
+Fld x: int, 1, 1 
+Fld cc: char, 2, 1 
+INFO  11:00:41,955 - Pretraga na liniji 11 (RecTreci), nadjeno Type RecTreci: Class [], 0, 0
+INFO  11:00:41,955 - Pretraga na liniji 12 (x), nadjeno Fld x: char, 0, 1
+INFO  11:00:41,955 - Pretraga na liniji 11 (RecTreci), nadjeno Type RecTreci: Class [], 0, 0 Fld x: char, 0, 1 
+INFO  11:00:41,956 - Pretraga na liniji 15 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  11:00:41,956 - Pretraga na liniji 16 (a), nadjeno Var a: int, 1, 0
+INFO  11:00:41,956 - Pretraga na liniji 17 (r), nadjeno Var r: Class [], 2, 0
+INFO  11:00:41,956 - Pretraga na liniji 20 (main), nadjeno Meth main: notype, 0, 0 
+INFO  11:00:41,956 -  Deklarisanih promenljivih ima = 7
+INFO  11:00:41,956 -  Globalnih promenljivih ima = 7
+INFO  11:00:41,956 - ===================================
+INFO  11:00:41,956 - Semanticka analiza je uspesno zavrsena!
+INFO  11:00:41,959 - designatorExpr
+INFO  11:00:41,959 - designatorExpr
+INFO  11:00:41,959 - Var
+INFO  11:00:41,959 - PRINT

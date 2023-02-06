@@ -1,0 +1,212 @@
+INFO  22:34:18,649 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  22:34:18,686 - #2 program
+INFO  22:34:18,686 - #46 MJProgram
+INFO  22:34:18,686 - #46 int
+INFO  22:34:18,687 - #46 x
+INFO  22:34:18,687 - #5 ;
+INFO  22:34:18,688 - #17 class
+INFO  22:34:18,688 - #46 Klasa
+INFO  22:34:18,688 - #3 {
+INFO  22:34:18,689 - #46 int
+INFO  22:34:18,689 - #46 fld
+INFO  22:34:18,690 - #11 ,
+INFO  22:34:18,690 - #46 a
+INFO  22:34:18,690 - #5 ;
+INFO  22:34:18,690 - #3 {
+INFO  22:34:18,690 - #13 void
+INFO  22:34:18,690 - #46 method
+INFO  22:34:18,691 - #6 (
+INFO  22:34:18,691 - #7 )
+INFO  22:34:18,692 - #3 {
+INFO  22:34:18,692 - #9 return
+INFO  22:34:18,692 - #5 ;
+INFO  22:34:18,692 - #4 }
+INFO  22:34:18,693 - #4 }
+INFO  22:34:18,693 - #4 }
+INFO  22:34:18,693 - #3 {
+INFO  22:34:18,694 - #46 int
+INFO  22:34:18,694 - #46 met
+INFO  22:34:18,694 - #6 (
+INFO  22:34:18,694 - #46 int
+INFO  22:34:18,694 - #46 a
+INFO  22:34:18,694 - #7 )
+INFO  22:34:18,694 - #3 {
+INFO  22:34:18,694 - #9 return
+INFO  22:34:18,695 - #43 1
+INFO  22:34:18,695 - #5 ;
+INFO  22:34:18,696 - #4 }
+INFO  22:34:18,696 - #46 int
+INFO  22:34:18,696 - #46 main
+INFO  22:34:18,696 - #6 (
+INFO  22:34:18,696 - #7 )
+INFO  22:34:18,696 - #3 {
+INFO  22:34:18,696 - #9 return
+INFO  22:34:18,696 - #43 1
+INFO  22:34:18,696 - #5 ;
+INFO  22:34:18,697 - #4 }
+INFO  22:34:18,697 - #4 }
+INFO  22:34:18,701 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             x
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    ClassDeclar(
+      ClassDecl(
+        ClassName(
+         Klasa
+        ) [ClassName]
+        NoClassExtends(
+        ) [NoClassExtends]
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            VarDeclarationList(
+              SingleVarDeclaration(
+                VarDeclarationDecl(
+                 fld
+                ) [VarDeclarationDecl]
+              ) [SingleVarDeclaration]
+              VarDeclarationDecl(
+               a
+              ) [VarDeclarationDecl]
+            ) [VarDeclarationList]
+          ) [VarDecl]
+        ) [VarList]
+        ClassMethodsDecl(
+          MethodListDecl(
+            NoMethodDecl(
+            ) [NoMethodDecl]
+            MethodDeclaration(
+              MethodTypeName(
+                VoidType(
+                ) [VoidType]
+               method
+              ) [MethodTypeName]
+              NoFormParsAndVarArgs(
+              ) [NoFormParsAndVarArgs]
+              NoVarList(
+              ) [NoVarList]
+              StatementListDecl(
+                NoStatementList(
+                ) [NoStatementList]
+                ReturnVoidStatement(
+                ) [ReturnVoidStatement]
+              ) [StatementListDecl]
+            ) [MethodDeclaration]
+          ) [MethodListDecl]
+        ) [ClassMethodsDecl]
+      ) [ClassDecl]
+    ) [ClassDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         met
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  22:34:18,702 - ===================================
+INFO  22:34:18,704 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  22:34:18,705 - Pretraga na liniji 3 (x), nadjeno Var x: int, 0, 0
+INFO  22:34:18,705 - Pretraga na liniji 5 (Klasa), nadjeno Type Klasa: Class [], 0, 0
+INFO  22:34:18,705 - Pretraga na liniji 6 (fld), nadjeno Fld fld: int, 0, 1
+INFO  22:34:18,705 - Pretraga na liniji 6 (a), nadjeno Fld a: int, 1, 1
+INFO  22:34:18,705 - Pretraga na liniji 9 (method), nadjeno Meth method: notype, 0, 0 

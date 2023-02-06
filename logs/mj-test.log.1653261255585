@@ -1,0 +1,160 @@
+INFO  01:14:00,367 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  01:14:00,406 - #2 program
+INFO  01:14:00,406 - #46 MJProgram
+INFO  01:14:00,406 - #14 const
+INFO  01:14:00,407 - #46 chr
+INFO  01:14:00,407 - #46 x
+INFO  01:14:00,407 - #30 =
+INFO  01:14:00,408 - #43 1
+INFO  01:14:00,408 - #5 ;
+INFO  01:14:00,409 - #3 {
+INFO  01:14:00,409 - #46 int
+INFO  01:14:00,410 - #46 meth
+INFO  01:14:00,410 - #6 (
+INFO  01:14:00,410 - #46 int
+INFO  01:14:00,410 - #46 a
+INFO  01:14:00,410 - #11 ,
+INFO  01:14:00,411 - #46 chr
+INFO  01:14:00,411 - #46 b
+INFO  01:14:00,411 - #7 )
+INFO  01:14:00,411 - #3 {
+INFO  01:14:00,412 - #9 return
+INFO  01:14:00,412 - #43 1
+INFO  01:14:00,413 - #5 ;
+INFO  01:14:00,414 - #4 }
+INFO  01:14:00,414 - #46 int
+INFO  01:14:00,414 - #46 main
+INFO  01:14:00,414 - #6 (
+INFO  01:14:00,414 - #7 )
+INFO  01:14:00,414 - #3 {
+INFO  01:14:00,415 - #9 return
+INFO  01:14:00,415 - #43 1
+INFO  01:14:00,415 - #5 ;
+INFO  01:14:00,415 - #4 }
+INFO  01:14:00,415 - #4 }
+INFO  01:14:00,419 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           chr
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         meth
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          FormalParamListDecl(
+            SingleFormalParamDecl(
+              FormalParamDeclaration(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [FormalParamDeclaration]
+            ) [SingleFormalParamDecl]
+            FormalParamDeclaration(
+              Type(
+               chr
+              ) [Type]
+             b
+            ) [FormalParamDeclaration]
+          ) [FormalParamListDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  01:14:00,419 - ===================================
+INFO  01:14:00,422 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+ERROR 01:14:00,422 - Ime chr ne predstavlja tip! - na liniji 3
+ERROR 01:14:00,422 - Tip konstante nije int!  - na liniji 3
+INFO  01:14:00,422 - Pretraga na liniji 8 (meth), nadjeno Meth meth: int, 0, 0 
+INFO  01:14:00,422 - Pretraga na liniji 8 (a), nadjeno Var a: int, 0, 1
+ERROR 01:14:00,422 - Ime chr ne predstavlja tip! - na liniji 8
+INFO  01:14:00,423 - Pretraga na liniji 8 (b), nadjeno Var b: notype, 1, 1
+INFO  01:14:00,423 - Pretraga na liniji 13 (main), nadjeno Meth main: int, 0, 0 
+INFO  01:14:00,423 -  Deklarisanih promenljivih ima = 0
+INFO  01:14:00,423 -  Globalnih promenljivih ima = 0
+INFO  01:14:00,423 - ===================================

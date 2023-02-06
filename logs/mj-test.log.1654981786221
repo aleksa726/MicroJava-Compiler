@@ -1,0 +1,164 @@
+INFO  23:08:44,051 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:08:44,099 - #2 program
+INFO  23:08:44,099 - #46 test302
+INFO  23:08:44,099 - #46 int
+INFO  23:08:44,100 - #46 niz
+INFO  23:08:44,101 - #15 [
+INFO  23:08:44,101 - #16 ]
+INFO  23:08:44,101 - #5 ;
+INFO  23:08:44,102 - #3 {
+INFO  23:08:44,102 - #13 void
+INFO  23:08:44,103 - #46 main
+INFO  23:08:44,103 - #6 (
+INFO  23:08:44,104 - #7 )
+INFO  23:08:44,104 - #3 {
+INFO  23:08:44,105 - #46 niz
+INFO  23:08:44,105 - #30 =
+INFO  23:08:44,106 - #40 new
+INFO  23:08:44,107 - #46 int
+INFO  23:08:44,107 - #15 [
+INFO  23:08:44,107 - #43 3
+INFO  23:08:44,108 - #16 ]
+INFO  23:08:44,108 - #5 ;
+INFO  23:08:44,109 - #46 niz
+INFO  23:08:44,109 - #15 [
+INFO  23:08:44,109 - #43 0
+INFO  23:08:44,109 - #16 ]
+INFO  23:08:44,109 - #30 =
+INFO  23:08:44,110 - #43 1
+INFO  23:08:44,110 - #5 ;
+INFO  23:08:44,110 - #4 }
+INFO  23:08:44,110 - #4 }
+INFO  23:08:44,115 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          ArrayDeclaration(
+           niz
+          ) [ArrayDeclaration]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          StatementDesignatorStatement(
+            DesignatorStatementAssign(
+              AssignDesignatorDecl(
+                OnlyIdent(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                ) [OnlyIdent]
+                AssignopDecl(
+                ) [AssignopDecl]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NewArrayExpr(
+                        Type(
+                         int
+                        ) [Type]
+                        MinusExprDeclaration(
+                          NoMinus(
+                          ) [NoMinus]
+                          SingleTermDeclaration(
+                            SingleFactorDecl(
+                              NumberFactor(
+                               3
+                              ) [NumberFactor]
+                            ) [SingleFactorDecl]
+                          ) [SingleTermDeclaration]
+                          NoExpr(
+                          ) [NoExpr]
+                        ) [MinusExprDeclaration]
+                      ) [NewArrayExpr]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [AssignDesignatorDecl]
+            ) [DesignatorStatementAssign]
+          ) [StatementDesignatorStatement]
+        ) [StatementListDecl]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignDesignatorDecl(
+              ArrayDesignator(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+                MinusExprDeclaration(
+                  NoMinus(
+                  ) [NoMinus]
+                  SingleTermDeclaration(
+                    SingleFactorDecl(
+                      NumberFactor(
+                       0
+                      ) [NumberFactor]
+                    ) [SingleFactorDecl]
+                  ) [SingleTermDeclaration]
+                  NoExpr(
+                  ) [NoExpr]
+                ) [MinusExprDeclaration]
+              ) [ArrayDesignator]
+              AssignopDecl(
+              ) [AssignopDecl]
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    NumberFactor(
+                     1
+                    ) [NumberFactor]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+            ) [AssignDesignatorDecl]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:08:44,116 - ===================================
+INFO  23:08:44,130 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:08:44,130 - Pretraga na liniji 5 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:08:44,130 - Pretraga na liniji 9 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:08:44,130 -  Deklarisanih promenljivih ima = 1
+INFO  23:08:44,131 -  Globalnih promenljivih ima = 1
+INFO  23:08:44,131 - ===================================
+INFO  23:08:44,131 - Semanticka analiza je uspesno zavrsena!
+INFO  23:08:44,139 - designatorExpr

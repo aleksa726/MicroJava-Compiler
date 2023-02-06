@@ -1,0 +1,62 @@
+INFO  23:15:35,939 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:15:35,976 - #2 program
+INFO  23:15:35,976 - #46 MJProgram
+INFO  23:15:35,976 - #3 {
+INFO  23:15:35,977 - #46 int
+INFO  23:15:35,977 - #46 main
+INFO  23:15:35,978 - #6 (
+INFO  23:15:35,978 - #7 )
+INFO  23:15:35,979 - #3 {
+INFO  23:15:35,979 - #9 return
+INFO  23:15:35,979 - #43 1
+INFO  23:15:35,980 - #5 ;
+INFO  23:15:35,981 - #4 }
+INFO  23:15:35,981 - #4 }
+INFO  23:15:35,985 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  NoDeclLists(
+  ) [NoDeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:15:35,985 - ===================================
+INFO  23:15:35,988 - Obradjuje se funkcija main na liniji 4
+INFO  23:15:35,988 -  Deklarisanih promenljivih ima = 0
+INFO  23:15:35,988 - ===================================

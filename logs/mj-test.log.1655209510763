@@ -1,0 +1,281 @@
+INFO  14:24:45,496 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  14:24:45,532 - #2 program
+INFO  14:24:45,532 - #46 test302
+INFO  14:24:45,533 - #46 bool
+INFO  14:24:45,533 - #46 flag
+INFO  14:24:45,534 - #5 ;
+INFO  14:24:45,534 - #46 int
+INFO  14:24:45,535 - #46 niz
+INFO  14:24:45,535 - #15 [
+INFO  14:24:45,535 - #16 ]
+INFO  14:24:45,535 - #5 ;
+INFO  14:24:45,535 - #46 int
+INFO  14:24:45,535 - #46 a
+INFO  14:24:45,535 - #5 ;
+INFO  14:24:45,535 - #3 {
+INFO  14:24:45,536 - #46 int
+INFO  14:24:45,536 - #46 sum
+INFO  14:24:45,536 - #6 (
+INFO  14:24:45,537 - #46 int
+INFO  14:24:45,537 - #46 z
+INFO  14:24:45,537 - #11 ,
+INFO  14:24:45,537 - #46 int
+INFO  14:24:45,537 - #46 d
+INFO  14:24:45,537 - #7 )
+INFO  14:24:45,538 - #3 {
+INFO  14:24:45,538 - #9 return
+INFO  14:24:45,538 - #46 z
+INFO  14:24:45,539 - #10 +
+INFO  14:24:45,540 - #46 d
+INFO  14:24:45,541 - #5 ;
+INFO  14:24:45,541 - #4 }
+INFO  14:24:45,541 - #13 void
+INFO  14:24:45,541 - #46 main
+INFO  14:24:45,542 - #6 (
+INFO  14:24:45,542 - #7 )
+INFO  14:24:45,542 - #3 {
+INFO  14:24:45,542 - #46 a
+INFO  14:24:45,542 - #30 =
+INFO  14:24:45,542 - #46 sum
+INFO  14:24:45,543 - #6 (
+INFO  14:24:45,543 - #43 1
+INFO  14:24:45,543 - #11 ,
+INFO  14:24:45,543 - #43 2
+INFO  14:24:45,543 - #7 )
+INFO  14:24:45,544 - #5 ;
+INFO  14:24:45,544 - #4 }
+INFO  14:24:45,544 - #4 }
+INFO  14:24:45,549 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        NoDeclLists(
+        ) [NoDeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               bool
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               flag
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         sum
+        ) [MethodTypeName]
+        OnlyFormalParam(
+          FormalParamListDecl(
+            SingleFormalParamDecl(
+              FormalParamDeclaration(
+                Type(
+                 int
+                ) [Type]
+               z
+              ) [FormalParamDeclaration]
+            ) [SingleFormalParamDecl]
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             d
+            ) [FormalParamDeclaration]
+          ) [FormalParamListDecl]
+        ) [OnlyFormalParam]
+        NoVarList(
+        ) [NoVarList]
+        StatementListDecl(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  Var(
+                    OnlyIdent(
+                      DesignatorName(
+                       z
+                      ) [DesignatorName]
+                    ) [OnlyIdent]
+                  ) [Var]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              ExprDeclaration(
+                NoExpr(
+                ) [NoExpr]
+                AddopPlus(
+                ) [AddopPlus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    Var(
+                      OnlyIdent(
+                        DesignatorName(
+                         d
+                        ) [DesignatorName]
+                      ) [OnlyIdent]
+                    ) [Var]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+              ) [ExprDeclaration]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignDesignatorDecl(
+              OnlyIdent(
+                DesignatorName(
+                 a
+                ) [DesignatorName]
+              ) [OnlyIdent]
+              AssignopDecl(
+              ) [AssignopDecl]
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    FunctionCall(
+                      OnlyIdent(
+                        DesignatorName(
+                         sum
+                        ) [DesignatorName]
+                      ) [OnlyIdent]
+                      ActParsListDeclaration(
+                        ActualParams(
+                          ActualParam(
+                            MinusExprDeclaration(
+                              NoMinus(
+                              ) [NoMinus]
+                              SingleTermDeclaration(
+                                SingleFactorDecl(
+                                  NumberFactor(
+                                   1
+                                  ) [NumberFactor]
+                                ) [SingleFactorDecl]
+                              ) [SingleTermDeclaration]
+                              NoExpr(
+                              ) [NoExpr]
+                            ) [MinusExprDeclaration]
+                          ) [ActualParam]
+                          MinusExprDeclaration(
+                            NoMinus(
+                            ) [NoMinus]
+                            SingleTermDeclaration(
+                              SingleFactorDecl(
+                                NumberFactor(
+                                 2
+                                ) [NumberFactor]
+                              ) [SingleFactorDecl]
+                            ) [SingleTermDeclaration]
+                            NoExpr(
+                            ) [NoExpr]
+                          ) [MinusExprDeclaration]
+                        ) [ActualParams]
+                      ) [ActParsListDeclaration]
+                    ) [FunctionCall]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+            ) [AssignDesignatorDecl]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  14:24:45,550 - ===================================
+INFO  14:24:45,552 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  14:24:45,553 - Pretraga na liniji 5 (flag), nadjeno Var flag: , 0, 0
+INFO  14:24:45,553 - Pretraga na liniji 7 (niz), nadjeno Var niz: Arr of int, 1, 0
+INFO  14:24:45,553 - Pretraga na liniji 9 (a), nadjeno Var a: int, 2, 0
+INFO  14:24:45,553 - Pretraga na liniji 14 (sum), nadjeno Meth sum: int, 0, 0 
+INFO  14:24:45,553 - Pretraga na liniji 14 (z), nadjeno Var z: int, 0, 1
+INFO  14:24:45,553 - Pretraga na liniji 14 (d), nadjeno Var d: int, 1, 1
+INFO  14:24:45,553 - Pretraga na liniji 19 (main), nadjeno Meth main: notype, 0, 0 
+INFO  14:24:45,554 - Pretraga na liniji 21 (sum), nadjeno Meth sum: int, 0, 2 
+   Var z: int, 0, 1 
+   Var d: int, 1, 1 
+INFO  14:24:45,554 -  Deklarisanih promenljivih ima = 3
+INFO  14:24:45,554 -  Globalnih promenljivih ima = 3
+INFO  14:24:45,554 - ===================================
+INFO  14:24:45,554 - Semanticka analiza je uspesno zavrsena!
+INFO  14:24:45,557 - designatorExpr
+INFO  14:24:45,557 - Var
+INFO  14:24:45,557 - designatorExpr
+INFO  14:24:45,557 - Var
+INFO  14:24:45,557 - EXPR
+INFO  14:24:45,557 - designatorExpr
+INFO  14:24:45,557 - designatorExpr
+INFO  14:24:45,557 - EXPR
+INFO  14:24:45,557 - EXPR
+INFO  14:24:45,557 - funcCall
+INFO  14:24:45,557 - EXPR
+INFO  14:24:45,557 - Assign designator

@@ -1,0 +1,139 @@
+INFO  23:57:48,184 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:57:48,220 - #2 program
+INFO  23:57:48,220 - #46 test302
+INFO  23:57:48,220 - #19 record
+INFO  23:57:48,221 - #46 Rec
+INFO  23:57:48,221 - #3 {
+INFO  23:57:48,222 - #46 int
+INFO  23:57:48,222 - #46 x
+INFO  23:57:48,223 - #5 ;
+INFO  23:57:48,223 - #4 }
+INFO  23:57:48,223 - #46 int
+INFO  23:57:48,224 - #46 niz
+INFO  23:57:48,224 - #15 [
+INFO  23:57:48,224 - #16 ]
+INFO  23:57:48,224 - #5 ;
+INFO  23:57:48,224 - #46 int
+INFO  23:57:48,224 - #46 a
+INFO  23:57:48,224 - #5 ;
+INFO  23:57:48,224 - #46 Rec
+INFO  23:57:48,225 - #46 r
+INFO  23:57:48,225 - #5 ;
+INFO  23:57:48,225 - #3 {
+INFO  23:57:48,225 - #13 void
+INFO  23:57:48,225 - #46 main
+INFO  23:57:48,226 - #6 (
+INFO  23:57:48,226 - #7 )
+INFO  23:57:48,227 - #3 {
+INFO  23:57:48,227 - #4 }
+INFO  23:57:48,227 - #4 }
+INFO  23:57:48,231 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          NoDeclLists(
+          ) [NoDeclLists]
+          RecordDeclar(
+            RecordDeclaration(
+              RecordName(
+               Rec
+              ) [RecordName]
+              VarList(
+                NoVarList(
+                ) [NoVarList]
+                VarDecl(
+                  VarType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarType]
+                  SingleVarDeclaration(
+                    VarDeclarationDecl(
+                     x
+                    ) [VarDeclarationDecl]
+                  ) [SingleVarDeclaration]
+                ) [VarDecl]
+              ) [VarList]
+            ) [RecordDeclaration]
+          ) [RecordDeclar]
+        ) [DeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              ArrayDeclaration(
+               niz
+              ) [ArrayDeclaration]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           Rec
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           r
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:57:48,232 - ===================================
+INFO  23:57:48,234 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:57:48,234 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  23:57:48,235 - Pretraga na liniji 6 (x), nadjeno Fld x: int, 0, 1
+INFO  23:57:48,235 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld x: int, 0, 1 
+INFO  23:57:48,235 - Pretraga na liniji 8 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:57:48,235 - Pretraga na liniji 9 (a), nadjeno Var a: int, 1, 0
+INFO  23:57:48,235 - Pretraga na liniji 10 (r), nadjeno Var r: Class [], 2, 0
+INFO  23:57:48,235 - Pretraga na liniji 13 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:57:48,235 -  Deklarisanih promenljivih ima = 4
+INFO  23:57:48,235 -  Globalnih promenljivih ima = 4
+INFO  23:57:48,235 - ===================================
+INFO  23:57:48,236 - Semanticka analiza je uspesno zavrsena!

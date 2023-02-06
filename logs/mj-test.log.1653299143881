@@ -1,0 +1,190 @@
+INFO  11:11:33,900 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  11:11:33,936 - #2 program
+INFO  11:11:33,936 - #46 MJProgram
+INFO  11:11:33,937 - #14 const
+INFO  11:11:33,937 - #46 int
+INFO  11:11:33,937 - #46 x
+INFO  11:11:33,938 - #30 =
+INFO  11:11:33,938 - #43 1
+INFO  11:11:33,939 - #5 ;
+INFO  11:11:33,939 - #3 {
+INFO  11:11:33,940 - #46 int
+INFO  11:11:33,940 - #46 meth
+INFO  11:11:33,940 - #6 (
+INFO  11:11:33,941 - #46 int
+INFO  11:11:33,941 - #46 a
+INFO  11:11:33,941 - #11 ,
+INFO  11:11:33,941 - #46 int
+INFO  11:11:33,941 - #53 ...
+INFO  11:11:33,941 - #46 args
+INFO  11:11:33,941 - #7 )
+INFO  11:11:33,942 - #46 int
+INFO  11:11:33,942 - #46 z
+INFO  11:11:33,942 - #5 ;
+INFO  11:11:33,943 - #3 {
+INFO  11:11:33,943 - #12 print
+INFO  11:11:33,944 - #6 (
+INFO  11:11:33,944 - #7 )
+ERROR 11:11:33,944 - 
+Sintaksna greska na liniji 12
+INFO  11:11:33,944 - #5 ;
+INFO  11:11:33,944 - #9 return
+INFO  11:11:33,944 - #43 1
+INFO  11:11:33,945 - #5 ;
+ERROR 11:11:33,945 - Izvrsen oporavak od greske prilikom deklarisanja dodele vrednosti u liniji 36
+INFO  11:11:33,946 - #4 }
+INFO  11:11:33,946 - #46 int
+INFO  11:11:33,947 - #46 main
+INFO  11:11:33,947 - #6 (
+INFO  11:11:33,947 - #7 )
+INFO  11:11:33,947 - #3 {
+INFO  11:11:33,947 - #9 return
+INFO  11:11:33,947 - #43 1
+INFO  11:11:33,947 - #5 ;
+INFO  11:11:33,947 - #4 }
+INFO  11:11:33,947 - #4 }
+INFO  11:11:33,951 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  DeclLists(
+    NoDeclLists(
+    ) [NoDeclLists]
+    ConstDeclar(
+      ConstDecl(
+        ConstType(
+          Type(
+           int
+          ) [Type]
+        ) [ConstType]
+        SingleConstDeclaration(
+          NumConst(
+           x
+            AssignopDecl(
+            ) [AssignopDecl]
+           1
+          ) [NumConst]
+        ) [SingleConstDeclaration]
+      ) [ConstDecl]
+    ) [ConstDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    MethodListDecl(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodTypeName(
+          MethodType(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType]
+         meth
+        ) [MethodTypeName]
+        FormParsAndVarArgsDecl(
+          SingleFormalParamDecl(
+            FormalParamDeclaration(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [FormalParamDeclaration]
+          ) [SingleFormalParamDecl]
+          VarArgsDecl(
+            Type(
+             int
+            ) [Type]
+           args
+          ) [VarArgsDecl]
+        ) [FormParsAndVarArgsDecl]
+        VarList(
+          NoVarList(
+          ) [NoVarList]
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              VarDeclarationDecl(
+               z
+              ) [VarDeclarationDecl]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarList]
+        StatementListDecl(
+          StatementListDecl(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementDesignatorStatement(
+              DesignatorStatementAssign(
+                AssignError(
+                ) [AssignError]
+              ) [DesignatorStatementAssign]
+            ) [StatementDesignatorStatement]
+          ) [StatementListDecl]
+          ReturnStatement(
+            MinusExprDeclaration(
+              NoMinus(
+              ) [NoMinus]
+              SingleTermDeclaration(
+                SingleFactorDecl(
+                  NumberFactor(
+                   1
+                  ) [NumberFactor]
+                ) [SingleFactorDecl]
+              ) [SingleTermDeclaration]
+              NoExpr(
+              ) [NoExpr]
+            ) [MinusExprDeclaration]
+          ) [ReturnStatement]
+        ) [StatementListDecl]
+      ) [MethodDeclaration]
+    ) [MethodListDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        MethodType(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnStatement(
+          MinusExprDeclaration(
+            NoMinus(
+            ) [NoMinus]
+            SingleTermDeclaration(
+              SingleFactorDecl(
+                NumberFactor(
+                 1
+                ) [NumberFactor]
+              ) [SingleFactorDecl]
+            ) [SingleTermDeclaration]
+            NoExpr(
+            ) [NoExpr]
+          ) [MinusExprDeclaration]
+        ) [ReturnStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  11:11:33,952 - ===================================
+INFO  11:11:33,955 - Pretraga na liniji 1 (MJProgram), nadjeno Prog MJProgram: notype, 0, 1 
+INFO  11:11:33,955 - Pretraga na liniji 3 (x), nadjeno Con x: int, 0, 0
+INFO  11:11:33,955 - Pretraga na liniji 10 (meth), nadjeno Meth meth: int, 0, 0 
+INFO  11:11:33,955 - Pretraga na liniji 10 (a), nadjeno Var a: int, 0, 1
+INFO  11:11:33,955 - Pretraga na liniji 10 (args), nadjeno Var args: Arr of int, 1, 1
+INFO  11:11:33,955 - Pretraga na liniji 10 (z), nadjeno Var z: int, 2, 1
+INFO  11:11:33,955 - Pretraga na liniji 16 (main), nadjeno Meth main: int, 0, 0 
+INFO  11:11:33,955 -  Deklarisanih promenljivih ima = 1
+INFO  11:11:33,955 -  Globalnih promenljivih ima = 0
+INFO  11:11:33,955 - ===================================

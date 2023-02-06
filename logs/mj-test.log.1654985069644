@@ -1,0 +1,135 @@
+INFO  00:04:23,148 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  00:04:23,199 - #2 program
+INFO  00:04:23,199 - #46 test302
+INFO  00:04:23,200 - #46 int
+INFO  00:04:23,200 - #46 niz
+INFO  00:04:23,201 - #15 [
+INFO  00:04:23,201 - #16 ]
+INFO  00:04:23,202 - #5 ;
+INFO  00:04:23,202 - #46 int
+INFO  00:04:23,202 - #46 a
+INFO  00:04:23,203 - #5 ;
+INFO  00:04:23,203 - #3 {
+INFO  00:04:23,203 - #13 void
+INFO  00:04:23,203 - #46 main
+INFO  00:04:23,204 - #6 (
+INFO  00:04:23,204 - #7 )
+INFO  00:04:23,205 - #3 {
+INFO  00:04:23,205 - #46 niz
+INFO  00:04:23,206 - #30 =
+INFO  00:04:23,207 - #40 new
+INFO  00:04:23,208 - #46 int
+INFO  00:04:23,208 - #15 [
+INFO  00:04:23,208 - #43 3
+INFO  00:04:23,209 - #16 ]
+INFO  00:04:23,209 - #5 ;
+INFO  00:04:23,210 - #4 }
+INFO  00:04:23,210 - #4 }
+INFO  00:04:23,215 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      NoDeclLists(
+      ) [NoDeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            ArrayDeclaration(
+             niz
+            ) [ArrayDeclaration]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           int
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           a
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignDesignatorDecl(
+              OnlyIdent(
+                DesignatorName(
+                 niz
+                ) [DesignatorName]
+              ) [OnlyIdent]
+              AssignopDecl(
+              ) [AssignopDecl]
+              MinusExprDeclaration(
+                NoMinus(
+                ) [NoMinus]
+                SingleTermDeclaration(
+                  SingleFactorDecl(
+                    NewArrayExpr(
+                      Type(
+                       int
+                      ) [Type]
+                      MinusExprDeclaration(
+                        NoMinus(
+                        ) [NoMinus]
+                        SingleTermDeclaration(
+                          SingleFactorDecl(
+                            NumberFactor(
+                             3
+                            ) [NumberFactor]
+                          ) [SingleFactorDecl]
+                        ) [SingleTermDeclaration]
+                        NoExpr(
+                        ) [NoExpr]
+                      ) [MinusExprDeclaration]
+                    ) [NewArrayExpr]
+                  ) [SingleFactorDecl]
+                ) [SingleTermDeclaration]
+                NoExpr(
+                ) [NoExpr]
+              ) [MinusExprDeclaration]
+            ) [AssignDesignatorDecl]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  00:04:23,215 - ===================================
+INFO  00:04:23,232 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  00:04:23,232 - Pretraga na liniji 5 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  00:04:23,232 - Pretraga na liniji 6 (a), nadjeno Var a: int, 1, 0
+INFO  00:04:23,232 - Pretraga na liniji 9 (main), nadjeno Meth main: notype, 0, 0 
+INFO  00:04:23,232 -  Deklarisanih promenljivih ima = 2
+INFO  00:04:23,232 -  Globalnih promenljivih ima = 2
+INFO  00:04:23,232 - ===================================
+INFO  00:04:23,233 - Semanticka analiza je uspesno zavrsena!

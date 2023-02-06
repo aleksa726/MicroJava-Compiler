@@ -1,0 +1,154 @@
+INFO  23:58:02,209 - Compiling source file: C:\Users\Aleksa\Desktop\PP Projekat\MJCompiler\test\program.mj
+INFO  23:58:02,255 - #2 program
+INFO  23:58:02,255 - #46 test302
+INFO  23:58:02,255 - #19 record
+INFO  23:58:02,256 - #46 Rec
+INFO  23:58:02,256 - #3 {
+INFO  23:58:02,257 - #46 int
+INFO  23:58:02,257 - #46 x
+INFO  23:58:02,258 - #5 ;
+INFO  23:58:02,258 - #4 }
+INFO  23:58:02,259 - #46 int
+INFO  23:58:02,259 - #46 niz
+INFO  23:58:02,259 - #15 [
+INFO  23:58:02,259 - #16 ]
+INFO  23:58:02,259 - #5 ;
+INFO  23:58:02,259 - #46 int
+INFO  23:58:02,260 - #46 a
+INFO  23:58:02,260 - #5 ;
+INFO  23:58:02,260 - #46 Rec
+INFO  23:58:02,260 - #46 r
+INFO  23:58:02,260 - #5 ;
+INFO  23:58:02,260 - #3 {
+INFO  23:58:02,260 - #13 void
+INFO  23:58:02,261 - #46 main
+INFO  23:58:02,261 - #6 (
+INFO  23:58:02,262 - #7 )
+INFO  23:58:02,262 - #3 {
+INFO  23:58:02,262 - #46 r
+INFO  23:58:02,263 - #42 .
+INFO  23:58:02,263 - #46 x
+INFO  23:58:02,263 - #5 ;
+ERROR 23:58:02,263 - 
+Sintaksna greska na liniji 15
+INFO  23:58:02,264 - #4 }
+INFO  23:58:02,264 - #4 }
+ERROR 23:58:02,264 - Izvrsen oporavak od greske prilikom deklarisanja dodele vrednosti u liniji 1
+INFO  23:58:02,269 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclLists(
+    DeclLists(
+      DeclLists(
+        DeclLists(
+          NoDeclLists(
+          ) [NoDeclLists]
+          RecordDeclar(
+            RecordDeclaration(
+              RecordName(
+               Rec
+              ) [RecordName]
+              VarList(
+                NoVarList(
+                ) [NoVarList]
+                VarDecl(
+                  VarType(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [VarType]
+                  SingleVarDeclaration(
+                    VarDeclarationDecl(
+                     x
+                    ) [VarDeclarationDecl]
+                  ) [SingleVarDeclaration]
+                ) [VarDecl]
+              ) [VarList]
+            ) [RecordDeclaration]
+          ) [RecordDeclar]
+        ) [DeclLists]
+        VarDeclar(
+          VarDecl(
+            VarType(
+              Type(
+               int
+              ) [Type]
+            ) [VarType]
+            SingleVarDeclaration(
+              ArrayDeclaration(
+               niz
+              ) [ArrayDeclaration]
+            ) [SingleVarDeclaration]
+          ) [VarDecl]
+        ) [VarDeclar]
+      ) [DeclLists]
+      VarDeclar(
+        VarDecl(
+          VarType(
+            Type(
+             int
+            ) [Type]
+          ) [VarType]
+          SingleVarDeclaration(
+            VarDeclarationDecl(
+             a
+            ) [VarDeclarationDecl]
+          ) [SingleVarDeclaration]
+        ) [VarDecl]
+      ) [VarDeclar]
+    ) [DeclLists]
+    VarDeclar(
+      VarDecl(
+        VarType(
+          Type(
+           Rec
+          ) [Type]
+        ) [VarType]
+        SingleVarDeclaration(
+          VarDeclarationDecl(
+           r
+          ) [VarDeclarationDecl]
+        ) [SingleVarDeclaration]
+      ) [VarDecl]
+    ) [VarDeclar]
+  ) [DeclLists]
+  MethodListDecl(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodTypeName(
+        VoidType(
+        ) [VoidType]
+       main
+      ) [MethodTypeName]
+      NoFormParsAndVarArgs(
+      ) [NoFormParsAndVarArgs]
+      NoVarList(
+      ) [NoVarList]
+      StatementListDecl(
+        NoStatementList(
+        ) [NoStatementList]
+        StatementDesignatorStatement(
+          DesignatorStatementAssign(
+            AssignError(
+            ) [AssignError]
+          ) [DesignatorStatementAssign]
+        ) [StatementDesignatorStatement]
+      ) [StatementListDecl]
+    ) [MethodDeclaration]
+  ) [MethodListDecl]
+) [Program]
+INFO  23:58:02,270 - ===================================
+INFO  23:58:02,282 - Pretraga na liniji 3 (test302), nadjeno Prog test302: notype, 0, 1 
+INFO  23:58:02,282 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0
+INFO  23:58:02,282 - Pretraga na liniji 6 (x), nadjeno Fld x: int, 0, 1
+INFO  23:58:02,283 - Pretraga na liniji 5 (Rec), nadjeno Type Rec: Class [], 0, 0 Fld x: int, 0, 1 
+INFO  23:58:02,283 - Pretraga na liniji 8 (niz), nadjeno Var niz: Arr of int, 0, 0
+INFO  23:58:02,283 - Pretraga na liniji 9 (a), nadjeno Var a: int, 1, 0
+INFO  23:58:02,283 - Pretraga na liniji 10 (r), nadjeno Var r: Class [], 2, 0
+INFO  23:58:02,283 - Pretraga na liniji 13 (main), nadjeno Meth main: notype, 0, 0 
+INFO  23:58:02,283 -  Deklarisanih promenljivih ima = 4
+INFO  23:58:02,283 -  Globalnih promenljivih ima = 4
+INFO  23:58:02,283 - ===================================
+INFO  23:58:02,284 - Semanticka analiza je uspesno zavrsena!
